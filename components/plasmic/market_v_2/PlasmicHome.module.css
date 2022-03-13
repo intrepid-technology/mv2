@@ -320,7 +320,7 @@
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .freeBox__ukmZ2 {
-    max-width: 90%;
+    max-width: 95%;
     display: flex;
   }
 }
@@ -2314,6 +2314,7 @@
 @media (min-width: 0px) and (max-width: 1440px) {
   .text__hgXx {
     text-align: left;
+    padding-top: 0px;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {

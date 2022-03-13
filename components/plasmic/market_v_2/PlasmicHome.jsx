@@ -55,14 +55,14 @@ function PlasmicHome__RenderFunc(props) {
         <meta name="twitter:card" content="summary" />
         <title key="title">
           {
-            "Find, hire, and pay a remote team, or remote work from anywhere—all on one platform | Intrepid Remote OS"
+            "Find, hire, and pay remote employees, creators, and freelancers — all on one platform"
           }
         </title>
         <meta
           key="og:title"
           property="og:title"
           content={
-            "Find, hire, and pay a remote team, or remote work from anywhere—all on one platform | Intrepid Remote OS"
+            "Find, hire, and pay remote employees, creators, and freelancers — all on one platform"
           }
         />
 
@@ -71,7 +71,7 @@ function PlasmicHome__RenderFunc(props) {
           property="og:description"
           name="description"
           content={
-            "Remote OS is a global payments and employment platform for companies to find, hire, and pay freelancers and remote employees in any country."
+            "Remote OS is a global payments and human resources platform for companies to find, hire, and pay remote employees, creators, and freelancers in any country."
           }
         />
 
@@ -199,25 +199,25 @@ function PlasmicHome__RenderFunc(props) {
                                     "screen",
                                     "iphone678"
                                   )
-                                    ? "Find, hire, and pay freelancers and remote employees in any country"
+                                    ? "Find, hire and pay remote employees, freelancers, and creators—all on one platform"
                                     : hasVariant(
                                         globalVariants,
                                         "screen",
                                         "iphone678Plus"
                                       )
-                                    ? "Find, hire, and pay freelancers and remote employees in any country"
+                                    ? "Find, hire and pay remote employees, freelancers, and creators—all on one platform"
                                     : hasVariant(
                                         globalVariants,
                                         "screen",
                                         "iphone12ProMax"
                                       )
-                                    ? "Find, hire, and pay freelancers and remote employees in any country"
+                                    ? "Find, hire and pay remote employees, freelancers, and creators—all on one platform"
                                     : hasVariant(
                                         globalVariants,
                                         "screen",
                                         "desktop"
                                       )
-                                    ? "Find, hire, and pay freelancers and remote employees in any country"
+                                    ? "Find, hire and pay\nremote employees freelancers and creators—all on one platform"
                                     : "Run your remote company from anywhere and scale on demand"}
                                 </div>
                               </div>
@@ -238,14 +238,22 @@ function PlasmicHome__RenderFunc(props) {
                               sty.text__ztd5X
                             )}
                           >
-                            {hasVariant(
-                              globalVariants,
-                              "screen",
-                              "iphone12ProMax"
-                            )
-                              ? "Remote OS is a global payments and employment platform for companies to find, hire, manage and pay high quality freelancers and remote employees in 150 countries—so you can build a global and remote workforce that scales on demand."
+                            {hasVariant(globalVariants, "screen", "iphone678")
+                              ? "Remote OS is a global payments and human resources management platform for companies to find, hire, manage and pay freelancers, creators, and remote employees in any country—so you can build a global and remote team that scales on demand."
+                              : hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "iphone678Plus"
+                                )
+                              ? "Remote OS is a global payments and human resources management platform for companies to find, hire, manage and pay freelancers, creators, and remote employees in any country—so you can build a global and remote team that scales on demand."
+                              : hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "iphone12ProMax"
+                                )
+                              ? "Remote OS is a global payments and human resources management platform for companies to find, hire, manage and pay freelancers, creators, and remote employees in any country—so you can build a global and remote team that scales on demand."
                               : hasVariant(globalVariants, "screen", "desktop")
-                              ? "Remote OS is a global payments and employment platform for companies to find, hire, manage and pay high quality freelancers, agencies, and remote employees in any country—so you can build a global and remote team that scales on demand."
+                              ? "Remote OS is a global payments and human resources management platform for companies to find, hire, manage and pay freelancers, creators, and remote employees in any country—so you can build a global and remote team that scales on demand."
                               : "Remote OS makes it easy for startups, remote, and hybrid companies to find, hire, manage, and pay high quality freelancers and agencies in 150 different countries— run a global and remote workforce that scales on demand from anywhere in the world."}
                           </div>
                         </div>
@@ -408,8 +416,10 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text__kTRu
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
-                      ? "Global payments and employment platform to build, manage, and pay distributed and remote teams"
+                    {hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? "Global payments and human resources platform to build, manage, and pay distributed and remote teams"
+                      : hasVariant(globalVariants, "screen", "iphone12ProMax")
+                      ? "Global payments and human resources platform to build, manage, and pay distributed and remote teams"
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Global payments and employment platform to build, manage, and pay distributed and remote teams"
                       : "Business management software that gives your remote company superpowers"}
@@ -455,7 +465,11 @@ function PlasmicHome__RenderFunc(props) {
 
                   <CardFeatureHeadlineDescriptionPrimary
                     bodyTextSlot={
-                      "Find high quality freelancers and agencies from all around the world and compliantly hire them on demand."
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
+                        ? "Find creators, freelancers, and agencies from all around the world and compliantly hire them on demand."
+                        : hasVariant(globalVariants, "screen", "desktop")
+                        ? "Find creators, freelancers, and agencies from all around the world and compliantly hire them on demand."
+                        : "Find high quality freelancers and agencies from all around the world and compliantly hire them on demand."
                     }
                     className={classNames(
                       "__wab_instance",
@@ -470,7 +484,7 @@ function PlasmicHome__RenderFunc(props) {
                         )}
                       >
                         {hasVariant(globalVariants, "screen", "desktop")
-                          ? "Find freelancers & agencies"
+                          ? "Find freelancers & creators"
                           : "Find and hire freelancers & agencies"}
                       </div>
                     }
@@ -705,13 +719,13 @@ function PlasmicHome__RenderFunc(props) {
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "iphone678")
-                      ? "Automated freelance and employee recommendations that match your needs and budget—saving you time without endless searching"
+                      ? "Automated freelance and creator recommendations that match your needs and budget—saving you time without endless searching"
                       : hasVariant(globalVariants, "screen", "iphone678Plus")
-                      ? "Automated freelance and employee recommendations that match your needs and budget—saving you time without endless searching"
+                      ? "Automated freelance and creator recommendations that match your needs and budget—saving you time without endless searching"
                       : hasVariant(globalVariants, "screen", "iphone12ProMax")
-                      ? "Automated freelance and employee recommendations that match your needs and budget—saving you time without endless searching"
+                      ? "Automated freelance and creator recommendations that match your needs and budget—saving you time without endless searching"
                       : hasVariant(globalVariants, "screen", "desktop")
-                      ? "Automated freelance and employee recommendations that match your needs and budget—saving you time without endless searching"
+                      ? "Automated freelance and creator recommendations that match your needs and budget—saving you time without endless searching"
                       : "Freelancer and agency recommendations that match your needs and save you time without endless searching"}
                   </div>
 
@@ -722,8 +736,10 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text__dUKbZ
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "desktop")
-                      ? "Stop searching for the technology and design services you need to grow. Start getting recommendations and matches to the freelancers, agencies, and services you need to get things done, scale up, and go to market fast."
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
+                      ? "Stop searching for the technology and design services you need to grow. Start getting recommendations and matches to the freelancers, creators, and services you need to get things done, scale up, and go to market fast."
+                      : hasVariant(globalVariants, "screen", "desktop")
+                      ? "Stop searching for the technology and design services you need to grow. Start getting recommendations and matches to the freelancers, creators, and services you need to get things done, scale up, and go to market fast."
                       : "Stop searching for the technology and design services you need to grow. Start getting recommendations and matches to the freelancers, agencies, and services you need to get things done, scale up, and go to market fast."}
                   </div>
                 </p.Stack>
@@ -964,13 +980,13 @@ function PlasmicHome__RenderFunc(props) {
                                   "screen",
                                   "iphone12ProMax"
                                 )
-                                  ? "Find and hire high quality freelancers or agencies that are matched specifically to your needs. Get access to over 27,000 freelancers and agencies from over 150 different countries, with services across web development, mobile development, no code, branding, and design."
+                                  ? "Find and hire high quality freelancers or creators that are matched specifically to your needs. Get access to over 27,000 freelancers and creators from over 150 countries, with services across web development, mobile development, no code, branding, and design."
                                   : hasVariant(
                                       globalVariants,
                                       "screen",
                                       "desktop"
                                     )
-                                  ? "Find and hire high quality freelancers or agencies that are matched specifically to your needs. Get access to over 27,000 freelancers and agencies from over 150 countries, with services across web development, mobile development, no code, branding, and design."
+                                  ? "Find and hire high quality freelancers or creators that are matched specifically to your needs. Get access to over 27,000 freelancers and creators from over 150 countries, with services across web development, mobile development, no code, branding, and design."
                                   : "Find and hire high quality freelancers or agencies that are matched specifically to your needs. Get access to over 27,000 freelancers and agencies from over 150 different countries, with services across web development, mobile development, no code, branding, and design."}
                               </div>
                             </div>
@@ -1055,7 +1071,7 @@ function PlasmicHome__RenderFunc(props) {
                             )}
                           >
                             {hasVariant(globalVariants, "screen", "desktop")
-                              ? "60 day net payment terms and a line of credit to onboard freelancers or agencies at no risk"
+                              ? "60 day net payment terms and a line of credit to onboard freelancers or creators at no risk"
                               : "60 day net payment terms and a line of credit to onboard freelancers or agencies at no risk"}
                           </div>
 
@@ -1074,7 +1090,7 @@ function PlasmicHome__RenderFunc(props) {
                                 )}
                               >
                                 {hasVariant(globalVariants, "screen", "desktop")
-                                  ? "Go to market fast with net 60 payment terms and free trials to take the risk out of onboarding new freelancers and agencies, so that your remote company can be flexible and compete with the big-tech giants."
+                                  ? "Go to market fast with net 60 payment terms and free trials to take the risk out of onboarding new freelancers and creators, so that your remote company can be flexible and compete with the big-tech giants."
                                   : "Go to market fast with net 60 payment terms and free trials to take the risk out of onboarding new freelancers and agencies, so that startups and scale ups can be flexible and compete with the big-tech giants."}
                               </div>
                             </div>
@@ -1161,21 +1177,21 @@ function PlasmicHome__RenderFunc(props) {
                             )}
                           >
                             {hasVariant(globalVariants, "screen", "iphone678")
-                              ? "Pay your remote employees and freelancers in 150 countries with one-click"
+                              ? "Pay your remote employees, creators, and freelancers in 150 countries with one-click"
                               : hasVariant(
                                   globalVariants,
                                   "screen",
                                   "iphone678Plus"
                                 )
-                              ? "Pay your remote employees and freelancers in 150 countries with one-click"
+                              ? "Pay your remote employees, creators, and freelancers in 150 countries with one-click"
                               : hasVariant(
                                   globalVariants,
                                   "screen",
                                   "iphone12ProMax"
                                 )
-                              ? "Pay your remote employees and freelancers in 150 countries with one-click"
+                              ? "Pay your remote employees, creators, and freelancers in 150 countries with one-click"
                               : hasVariant(globalVariants, "screen", "desktop")
-                              ? "Pay your remote employees and freelancers in 150 countries with one-click"
+                              ? "Pay your remote employees, creators, and freelancers in 150 countries with one-click"
                               : "Pay your freelancers and agencies in 150 different countries with one-click"}
                           </div>
 
@@ -1198,19 +1214,19 @@ function PlasmicHome__RenderFunc(props) {
                                   "screen",
                                   "iphone678Plus"
                                 )
-                                  ? "Automate your global payroll and freelancer payments, calculate local taxes, and pay your remote team each month, or on demand with one payment.  We'll make sure they get paid fast, in their preferred currency."
+                                  ? "Hire anyone in a new country​ in minutes. Automate contracts, onboarding, payments, and compliance and access a global community of creators, freelancers, and agencies ready to help your remote company succeed."
                                   : hasVariant(
                                       globalVariants,
                                       "screen",
                                       "iphone12ProMax"
                                     )
-                                  ? "Automate your global payroll and freelancer payments, calculate local taxes, and pay your remote team each month, or on demand with one payment.  We'll make sure they get paid fast, in their preferred currency."
+                                  ? "Automate your global payroll, freelancer, and creator payments, calculate local taxes, and pay your remote team each month, or on demand with one payment.  We'll make sure they get paid fast, in their preferred currency."
                                   : hasVariant(
                                       globalVariants,
                                       "screen",
                                       "desktop"
                                     )
-                                  ? "Automate your global payroll and freelancer payments, calculate local taxes, and pay your remote team each month, or on demand with one payment.  We'll make sure they get paid fast, in their preferred currency."
+                                  ? "Automate your global payroll, freelancer, and creator payments, calculate local taxes, and pay your remote team each month, or on demand with one payment.  We'll make sure they get paid fast, in their preferred currency."
                                   : "Automate your freelancer or agency payments, calculate local taxes, and pay your remote team each month, or on demand with one payment.  We'll make sure they get paid fast, in their preferred currency."}
                               </div>
                             </div>
@@ -1438,7 +1454,7 @@ function PlasmicHome__RenderFunc(props) {
                                 )}
                               >
                                 {hasVariant(globalVariants, "screen", "desktop")
-                                  ? "Generate, send, and sign contracts for new employees or a freelance agency in any country. Onboard new team members or partners in minutes, keep track of all your IP, NDA’s, and maintain a compliant work status for your remote team no matter where they are"
+                                  ? "Generate, send, and sign contracts for new employees, creators, or a freelance agency in any country. Onboard new team members or partners in minutes, keep track of all your IP, NDA’s, and maintain a compliant work status for your remote team no matter where they are"
                                   : "Keep track of all your IP, NDA’s, and Maintain a compliant work status for your international freelancers and agencies no matter where they are. As your employer of record we ensure all things hiring follow regional laws and tax rules so your team can work wherever they live."}
                               </div>
                             </div>
@@ -1625,8 +1641,10 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text__zjBn
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "desktop")
-                      ? "Hire anyone in a new country​ in minutes. Automate contracts, onboarding, payments, and compliance and access a global community of high quality freelancers and agencies ready to help your remote company succeed."
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
+                      ? "Hire anyone in a new country​ in minutes. Automate contracts, onboarding, payments, and compliance and access a global community of creators, freelancers, and agencies ready to help your remote company succeed."
+                      : hasVariant(globalVariants, "screen", "desktop")
+                      ? "Hire anyone in a new country​ in minutes. Automate contracts, onboarding, payments, and compliance and access a global community of creators, freelancers, and agencies ready to help your remote company succeed."
                       : "Work and grow from anywhere in the world. Access a global community of high quality freelancers and agencies ready to help your remote company succeed."}
                   </div>
                 </p.Stack>
@@ -1685,7 +1703,9 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text__dcNnD
                     )}
                   >
-                    {"Pre-vetted freelancers and agencies"}
+                    {hasVariant(globalVariants, "screen", "desktop")
+                      ? "Pre-vetted freelancers and agencies"
+                      : "Pre-vetted freelancers and agencies"}
                   </div>
                 </p.Stack>
 
