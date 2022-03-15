@@ -20,6 +20,7 @@ import {
 import BadgeSectionTitle from "../../BadgeSectionTitle"; // plasmic-import: kKmAboE5L2/component
 import PricingTableFeatureItem from "../../PricingTableFeatureItem"; // plasmic-import: YQmJm_xVDH/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
+import PricingCard from "../../PricingCard"; // plasmic-import: CM_KGGfiH99/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -98,281 +99,60 @@ function PlasmicMemberPricingComponent__RenderFunc(props) {
             </div>
           </p.Stack>
 
-          <p.Stack
-            as={"div"}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__zkIl2, {
-              [sty.freeBoxannual__zkIl280AwV]: hasVariant(
-                variants,
-                "annual",
-                "annual"
-              )
-            })}
-          >
-            {true ? (
-              <div
-                data-plasmic-name={"monthlyPricingDiv"}
-                data-plasmic-override={overrides.monthlyPricingDiv}
-                className={classNames(projectcss.all, sty.monthlyPricingDiv, {
-                  [sty.monthlyPricingDivannual]: hasVariant(
-                    variants,
-                    "annual",
-                    "annual"
-                  )
-                })}
-              >
+          {true ? (
+            <p.Stack
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.freeBox__zkIl2, {
+                [sty.freeBoxannual__zkIl280AwV]: hasVariant(
+                  variants,
+                  "annual",
+                  "annual"
+                )
+              })}
+            >
+              {true ? (
                 <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__i6HcD
-                  )}
+                  data-plasmic-name={"monthlyPricingDiv"}
+                  data-plasmic-override={overrides.monthlyPricingDiv}
+                  className={classNames(projectcss.all, sty.monthlyPricingDiv, {
+                    [sty.monthlyPricingDivannual]: hasVariant(
+                      variants,
+                      "annual",
+                      "annual"
+                    )
+                  })}
                 >
-                  {"Monthly"}
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__i6HcD
+                    )}
+                  >
+                    {"Monthly"}
+                  </div>
                 </div>
-              </div>
-            ) : null}
-            {true ? (
-              <div
-                data-plasmic-name={"annualPricingDiv"}
-                data-plasmic-override={overrides.annualPricingDiv}
-                className={classNames(projectcss.all, sty.annualPricingDiv, {
-                  [sty.annualPricingDivannual]: hasVariant(
-                    variants,
-                    "annual",
-                    "annual"
-                  )
-                })}
-              >
+              ) : null}
+              {true ? (
                 <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text___6ESt,
-                    {
-                      [sty.textannual___6ESt80AwV]: hasVariant(
-                        variants,
-                        "annual",
-                        "annual"
-                      )
-                    }
-                  )}
-                >
-                  {"Annual"}
-                </div>
-              </div>
-            ) : null}
-          </p.Stack>
-
-          <p.Stack
-            as={"div"}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__w7Mat)}
-          >
-            <div className={classNames(projectcss.all, sty.freeBox__dNo1I)}>
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox__ffh7)}
-              >
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__mo6T8
-                  )}
-                >
-                  {"Startup"}
-                </div>
-
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__aOaxK)}
+                  data-plasmic-name={"annualPricingDiv"}
+                  data-plasmic-override={overrides.annualPricingDiv}
+                  className={classNames(projectcss.all, sty.annualPricingDiv, {
+                    [sty.annualPricingDivannual]: hasVariant(
+                      variants,
+                      "annual",
+                      "annual"
+                    )
+                  })}
                 >
                   <div
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
-                      sty.text__oXusV
-                    )}
-                  >
-                    {"$0"}
-                  </div>
-                </p.Stack>
-
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox___1BDgs)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__jzQlY
-                    )}
-                  >
-                    {"Per user"}
-                  </div>
-                </p.Stack>
-
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox___5Jd8R)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__qlOy
-                    )}
-                  >
-                    {
-                      "For entrepreneurs just getting started with their remote company"
-                    }
-                  </div>
-                </p.Stack>
-              </p.Stack>
-
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox__bHsR)}
-              >
-                <CellDividerIcon
-                  className={classNames(projectcss.all, sty.svg__l5PDj)}
-                  role={"img"}
-                />
-
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__rGzLs)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__lmcnp
-                    )}
-                  >
-                    {"features"}
-                  </div>
-
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__oJu3Y
-                    )}
-                  >
-                    {"Start, manage, and grow a remote company"}
-                  </div>
-
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__xJxDz
-                    )}
-                  >
-                    {"8% fee for marketplace talent"}
-                  </div>
-                </p.Stack>
-
-                <PricingTableFeatureItem
-                  checkColor={"brand"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.pricingTableFeatureItem__x1Fxu
-                  )}
-                >
-                  {"Onboard and manage your own freelancers and agencies."}
-                </PricingTableFeatureItem>
-
-                <PricingTableFeatureItem
-                  checkColor={"brand"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.pricingTableFeatureItem__u7FPv
-                  )}
-                >
-                  {
-                    "Access our talent marketplace of over 27,000 vetted freelancers & agencies"
-                  }
-                </PricingTableFeatureItem>
-
-                <PricingTableFeatureItem
-                  checkColor={"brand"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.pricingTableFeatureItem___68HFs
-                  )}
-                >
-                  {"Pay freelancers in 170 countries with receipt tracking"}
-                </PricingTableFeatureItem>
-
-                <CellDividerIcon
-                  className={classNames(projectcss.all, sty.svg__rgU0S)}
-                  role={"img"}
-                />
-
-                <div className={classNames(projectcss.all, sty.freeBox__m90A0)}>
-                  <ButtonPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.buttonPrimary__ioq5I
-                    )}
-                    color={"primary"}
-                    destination={
-                      "https://intrepidventures.typeform.com/to/MthpVWrA"
-                    }
-                    width={"_360"}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__haYHf
-                      )}
-                    >
-                      {"Request access"}
-                    </div>
-                  </ButtonPrimary>
-                </div>
-              </p.Stack>
-            </div>
-
-            <div className={classNames(projectcss.all, sty.freeBox__av9NC)}>
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox__c1G)}
-              >
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__p8Rcx
-                  )}
-                >
-                  {"Growth"}
-                </div>
-
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__c9QgY)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__kmfpw,
+                      sty.text___6ESt,
                       {
-                        [sty.textannual__kmfpw80AwV]: hasVariant(
+                        [sty.textannual___6ESt80AwV]: hasVariant(
                           variants,
                           "annual",
                           "annual"
@@ -380,390 +160,657 @@ function PlasmicMemberPricingComponent__RenderFunc(props) {
                       }
                     )}
                   >
-                    {hasVariant(variants, "annual", "annual") ? "$45" : "$50"}
+                    {"Annual"}
                   </div>
-
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___3OuMv
-                    )}
-                  >
-                    {"/month"}
-                  </div>
-                </p.Stack>
-
+                </div>
+              ) : null}
+            </p.Stack>
+          ) : null}
+          {true ? (
+            <p.Stack
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.freeBox__w7Mat)}
+            >
+              <div className={classNames(projectcss.all, sty.freeBox__dNo1I)}>
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__gGnRm)}
+                  className={classNames(projectcss.all, sty.freeBox__ffh7)}
                 >
                   <div
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
-                      sty.text___8Gg9S
+                      sty.text__mo6T8
                     )}
                   >
-                    {"Per user"}
-                  </div>
-                </p.Stack>
-
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__wu4E)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__qzXBc
-                    )}
-                  >
-                    {
-                      "For venture backed startups scaling their remote company and global team"
-                    }
-                  </div>
-                </p.Stack>
-              </p.Stack>
-
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox___8QheI)}
-              >
-                <CellDividerIcon
-                  className={classNames(projectcss.all, sty.svg___0Erlu)}
-                  role={"img"}
-                />
-
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__yYutt)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__atQCq
-                    )}
-                  >
-                    {"features"}
+                    {"Startup"}
                   </div>
 
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__ysbj2
-                    )}
-                  >
-                    <React.Fragment>
-                      <React.Fragment>{"Everything in our "}</React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"Startup "}
-                      </span>
-                      <React.Fragment>{"package plus"}</React.Fragment>
-                    </React.Fragment>
-                  </div>
-
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__tme1G
-                    )}
-                  >
-                    {"5% fee for marketplace talent"}
-                  </div>
-                </p.Stack>
-
-                <PricingTableFeatureItem
-                  checkColor={"brand"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.pricingTableFeatureItem__va64K
-                  )}
-                >
-                  {
-                    "Virtual wallet and physical debit card for project and expense management "
-                  }
-                </PricingTableFeatureItem>
-
-                <PricingTableFeatureItem
-                  checkColor={"brand"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.pricingTableFeatureItem__uevIx
-                  )}
-                >
-                  {"Manage expenses across teams and departments"}
-                </PricingTableFeatureItem>
-
-                <PricingTableFeatureItem
-                  checkColor={"brand"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.pricingTableFeatureItem__shkDl
-                  )}
-                >
-                  {
-                    "EOR - Buy, contract, or hire globally, with automated tax and compliance"
-                  }
-                </PricingTableFeatureItem>
-
-                <CellDividerIcon
-                  className={classNames(projectcss.all, sty.svg__jmeDz)}
-                  role={"img"}
-                />
-
-                <div className={classNames(projectcss.all, sty.freeBox__iszuh)}>
-                  <ButtonPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.buttonPrimary__kqlVw
-                    )}
-                    color={"primary"}
-                    destination={
-                      "https://intrepidventures.typeform.com/to/MthpVWrA"
-                    }
-                    width={"_360"}
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__aOaxK)}
                   >
                     <div
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__gziPe
+                        sty.text__oXusV
                       )}
                     >
-                      {"Request access"}
+                      {"$0"}
                     </div>
-                  </ButtonPrimary>
-                </div>
-              </p.Stack>
-            </div>
+                  </p.Stack>
 
-            <div className={classNames(projectcss.all, sty.freeBox__fj10K)}>
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox__dF4Zl)}
-              >
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox___1BDgs)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__jzQlY
+                      )}
+                    >
+                      {"Per user"}
+                    </div>
+                  </p.Stack>
+
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox___5Jd8R)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__qlOy
+                      )}
+                    >
+                      {
+                        "For entrepreneurs just getting started with their remote company"
+                      }
+                    </div>
+                  </p.Stack>
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__bHsR)}
+                >
+                  <CellDividerIcon
+                    className={classNames(projectcss.all, sty.svg__l5PDj)}
+                    role={"img"}
+                  />
+
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__rGzLs)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__lmcnp
+                      )}
+                    >
+                      {"features"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__oJu3Y
+                      )}
+                    >
+                      {"Start, manage, and grow a remote company"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__xJxDz
+                      )}
+                    >
+                      {"8% fee for marketplace talent"}
+                    </div>
+                  </p.Stack>
+
+                  <PricingTableFeatureItem
+                    checkColor={"brand"}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.pricingTableFeatureItem__x1Fxu
+                    )}
+                  >
+                    {"Onboard and manage your own freelancers and agencies."}
+                  </PricingTableFeatureItem>
+
+                  <PricingTableFeatureItem
+                    checkColor={"brand"}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.pricingTableFeatureItem__u7FPv
+                    )}
+                  >
+                    {
+                      "Access our talent marketplace of over 27,000 vetted freelancers & agencies"
+                    }
+                  </PricingTableFeatureItem>
+
+                  <PricingTableFeatureItem
+                    checkColor={"brand"}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.pricingTableFeatureItem___68HFs
+                    )}
+                  >
+                    {"Pay freelancers in 170 countries with receipt tracking"}
+                  </PricingTableFeatureItem>
+
+                  <CellDividerIcon
+                    className={classNames(projectcss.all, sty.svg__rgU0S)}
+                    role={"img"}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__m90A0)}
+                  >
+                    <ButtonPrimary
+                      className={classNames(
+                        "__wab_instance",
+                        sty.buttonPrimary__ioq5I
+                      )}
+                      color={"primary"}
+                      destination={
+                        "https://intrepidventures.typeform.com/to/MthpVWrA"
+                      }
+                      width={"_360"}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__haYHf
+                        )}
+                      >
+                        {"Request access"}
+                      </div>
+                    </ButtonPrimary>
+                  </div>
+                </p.Stack>
+              </div>
+
+              <div className={classNames(projectcss.all, sty.freeBox__av9NC)}>
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__c1G)}
+                >
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__p8Rcx
+                    )}
+                  >
+                    {"Growth"}
+                  </div>
+
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__c9QgY)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__kmfpw,
+                        {
+                          [sty.textannual__kmfpw80AwV]: hasVariant(
+                            variants,
+                            "annual",
+                            "annual"
+                          )
+                        }
+                      )}
+                    >
+                      {hasVariant(variants, "annual", "annual") ? "$45" : "$50"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___3OuMv
+                      )}
+                    >
+                      {"/month"}
+                    </div>
+                  </p.Stack>
+
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__gGnRm)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___8Gg9S
+                      )}
+                    >
+                      {"Per user"}
+                    </div>
+                  </p.Stack>
+
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__wu4E)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__qzXBc
+                      )}
+                    >
+                      {
+                        "For venture backed startups scaling their remote company and global team"
+                      }
+                    </div>
+                  </p.Stack>
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox___8QheI)}
+                >
+                  <CellDividerIcon
+                    className={classNames(projectcss.all, sty.svg___0Erlu)}
+                    role={"img"}
+                  />
+
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__yYutt)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__atQCq
+                      )}
+                    >
+                      {"features"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__ysbj2
+                      )}
+                    >
+                      <React.Fragment>
+                        <React.Fragment>{"Everything in our "}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"Startup "}
+                        </span>
+                        <React.Fragment>{"package plus"}</React.Fragment>
+                      </React.Fragment>
+                    </div>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__tme1G
+                      )}
+                    >
+                      {"5% fee for marketplace talent"}
+                    </div>
+                  </p.Stack>
+
+                  <PricingTableFeatureItem
+                    checkColor={"brand"}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.pricingTableFeatureItem__va64K
+                    )}
+                  >
+                    {
+                      "Virtual wallet and physical debit card for project and expense management "
+                    }
+                  </PricingTableFeatureItem>
+
+                  <PricingTableFeatureItem
+                    checkColor={"brand"}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.pricingTableFeatureItem__uevIx
+                    )}
+                  >
+                    {"Manage expenses across teams and departments"}
+                  </PricingTableFeatureItem>
+
+                  <PricingTableFeatureItem
+                    checkColor={"brand"}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.pricingTableFeatureItem__shkDl
+                    )}
+                  >
+                    {
+                      "EOR - Buy, contract, or hire globally, with automated tax and compliance"
+                    }
+                  </PricingTableFeatureItem>
+
+                  <CellDividerIcon
+                    className={classNames(projectcss.all, sty.svg__jmeDz)}
+                    role={"img"}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__iszuh)}
+                  >
+                    <ButtonPrimary
+                      className={classNames(
+                        "__wab_instance",
+                        sty.buttonPrimary__kqlVw
+                      )}
+                      color={"primary"}
+                      destination={
+                        "https://intrepidventures.typeform.com/to/MthpVWrA"
+                      }
+                      width={"_360"}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__gziPe
+                        )}
+                      >
+                        {"Request access"}
+                      </div>
+                    </ButtonPrimary>
+                  </div>
+                </p.Stack>
+              </div>
+
+              <div className={classNames(projectcss.all, sty.freeBox__fj10K)}>
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__dF4Zl)}
+                >
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__pn49
+                    )}
+                  >
+                    {"Global"}
+                  </div>
+
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__bIyMd)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__vrf1F,
+                        {
+                          [sty.textannual__vrf1F80AwV]: hasVariant(
+                            variants,
+                            "annual",
+                            "annual"
+                          )
+                        }
+                      )}
+                    >
+                      {hasVariant(variants, "annual", "annual")
+                        ? "$90"
+                        : "$100"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___9Gta
+                      )}
+                    >
+                      {"/month"}
+                    </div>
+                  </p.Stack>
+
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__yrjxP)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___2G0Vt
+                      )}
+                    >
+                      {"Per user"}
+                    </div>
+                  </p.Stack>
+
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox___6G5DB)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__hzFzi
+                      )}
+                    >
+                      {
+                        "For global teams that need advanced payment and compliance solutions"
+                      }
+                    </div>
+                  </p.Stack>
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__kchS)}
+                >
+                  <CellDividerIcon
+                    className={classNames(projectcss.all, sty.svg__ytauP)}
+                    role={"img"}
+                  />
+
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox___2QOg2)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__nVpEw
+                      )}
+                    >
+                      {"features"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__pyFb2
+                      )}
+                    >
+                      <React.Fragment>
+                        <React.Fragment>{"Everything in our "}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"Growth "}
+                        </span>
+                        <React.Fragment>{"package plus"}</React.Fragment>
+                      </React.Fragment>
+                    </div>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__xh08P
+                      )}
+                    >
+                      {"3% fee for marketplace talent"}
+                    </div>
+                  </p.Stack>
+
+                  <PricingTableFeatureItem
+                    checkColor={"brand"}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.pricingTableFeatureItem__oAvdo
+                    )}
+                  >
+                    {
+                      "Buy now and pay later, credit line with up to 60 day net terms"
+                    }
+                  </PricingTableFeatureItem>
+
+                  <PricingTableFeatureItem
+                    checkColor={"brand"}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.pricingTableFeatureItem__a09Wi
+                    )}
+                  >
+                    {"Enhanced budget and expense management"}
+                  </PricingTableFeatureItem>
+
+                  <PricingTableFeatureItem
+                    checkColor={"brand"}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.pricingTableFeatureItem__j8AH3
+                    )}
+                  >
+                    {
+                      "Advanced compliance management, for security, IP, NDA’s, and more"
+                    }
+                  </PricingTableFeatureItem>
+
+                  <CellDividerIcon
+                    className={classNames(projectcss.all, sty.svg__kKhEv)}
+                    role={"img"}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox___4Frk6)}
+                  >
+                    <ButtonPrimary
+                      className={classNames(
+                        "__wab_instance",
+                        sty.buttonPrimary__rVfd9
+                      )}
+                      color={"primary"}
+                      destination={
+                        "https://intrepidventures.typeform.com/to/MthpVWrA"
+                      }
+                      width={"_360"}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__ysfgi
+                        )}
+                      >
+                        {"Request access"}
+                      </div>
+                    </ButtonPrimary>
+                  </div>
+                </p.Stack>
+              </div>
+            </p.Stack>
+          ) : null}
+
+          <p.Stack
+            as={"div"}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.freeBox__hi5YG)}
+          >
+            <PricingCard
+              className={classNames("__wab_instance", sty.pricingCard__tWpRv)}
+            />
+
+            <PricingCard
+              category={
                 <div
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text__pn49
+                    sty.text___2UVnK
                   )}
                 >
-                  {"Global"}
+                  {"Freelancers & creators"}
                 </div>
-
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__bIyMd)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__vrf1F,
-                      {
-                        [sty.textannual__vrf1F80AwV]: hasVariant(
-                          variants,
-                          "annual",
-                          "annual"
-                        )
-                      }
-                    )}
-                  >
-                    {hasVariant(variants, "annual", "annual") ? "$90" : "$100"}
-                  </div>
-
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___9Gta
-                    )}
-                  >
-                    {"/month"}
-                  </div>
-                </p.Stack>
-
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__yrjxP)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___2G0Vt
-                    )}
-                  >
-                    {"Per user"}
-                  </div>
-                </p.Stack>
-
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox___6G5DB)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__hzFzi
-                    )}
-                  >
-                    {
-                      "For global teams that need advanced payment and compliance solutions"
-                    }
-                  </div>
-                </p.Stack>
-              </p.Stack>
-
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox__kchS)}
-              >
-                <CellDividerIcon
-                  className={classNames(projectcss.all, sty.svg__ytauP)}
-                  role={"img"}
-                />
-
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox___2QOg2)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__nVpEw
-                    )}
-                  >
-                    {"features"}
-                  </div>
-
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__pyFb2
-                    )}
-                  >
-                    <React.Fragment>
-                      <React.Fragment>{"Everything in our "}</React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"Growth "}
-                      </span>
-                      <React.Fragment>{"package plus"}</React.Fragment>
-                    </React.Fragment>
-                  </div>
-
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__xh08P
-                    )}
-                  >
-                    {"3% fee for marketplace talent"}
-                  </div>
-                </p.Stack>
-
-                <PricingTableFeatureItem
-                  checkColor={"brand"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.pricingTableFeatureItem__oAvdo
-                  )}
-                >
-                  {
-                    "Buy now and pay later, credit line with up to 60 day net terms"
-                  }
-                </PricingTableFeatureItem>
-
-                <PricingTableFeatureItem
-                  checkColor={"brand"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.pricingTableFeatureItem__a09Wi
-                  )}
-                >
-                  {"Enhanced budget and expense management"}
-                </PricingTableFeatureItem>
-
-                <PricingTableFeatureItem
-                  checkColor={"brand"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.pricingTableFeatureItem__j8AH3
-                  )}
-                >
-                  {
-                    "Advanced compliance management, for security, IP, NDA’s, and more"
-                  }
-                </PricingTableFeatureItem>
-
-                <CellDividerIcon
-                  className={classNames(projectcss.all, sty.svg__kKhEv)}
-                  role={"img"}
-                />
-
-                <div
-                  className={classNames(projectcss.all, sty.freeBox___4Frk6)}
-                >
-                  <ButtonPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.buttonPrimary__rVfd9
-                    )}
-                    color={"primary"}
-                    destination={
-                      "https://intrepidventures.typeform.com/to/MthpVWrA"
-                    }
-                    width={"_360"}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__ysfgi
-                      )}
-                    >
-                      {"Request access"}
-                    </div>
-                  </ButtonPrimary>
-                </div>
-              </p.Stack>
-            </div>
+              }
+              className={classNames("__wab_instance", sty.pricingCard__iUpqA)}
+              duration={"/contract"}
+              heading={
+                "Manage your global freelance and creator talent on demand."
+              }
+              price={"0.5%"}
+              subHeading={
+                "Advanced digital contracts and instant global payments to help you manage your freelancers and creators"
+              }
+            />
           </p.Stack>
         </div>
       ) : null}
 
       <p.Stack
         as={"div"}
-        data-plasmic-name={"enterpriseSolutions"}
-        data-plasmic-override={overrides.enterpriseSolutions}
+        data-plasmic-name={"startupSolution"}
+        data-plasmic-override={overrides.startupSolution}
         hasGap={true}
-        className={classNames(projectcss.all, sty.enterpriseSolutions)}
+        className={classNames(projectcss.all, sty.startupSolution)}
       >
         {true ? (
           <div className={classNames(projectcss.all, sty.freeBox__x4Htp)}>
@@ -774,7 +821,7 @@ function PlasmicMemberPricingComponent__RenderFunc(props) {
                 sty.badgeSectionTitle__c2Gsu
               )}
               colors={"brand"}
-              sectionTitleSlot={"enterprise"}
+              sectionTitleSlot={"Startups"}
             />
           </div>
         ) : null}
@@ -792,7 +839,9 @@ function PlasmicMemberPricingComponent__RenderFunc(props) {
                 sty.text__ufSbc
               )}
             >
-              {"Enterprise solutions"}
+              {hasVariant(globalVariants, "screen", "iphone12ProMax")
+                ? "Startups get their first remote employee for free"
+                : "Startups get their first remote employee for free, and 50% off for each additional employee for the first year."}
             </div>
           </div>
 
@@ -805,7 +854,7 @@ function PlasmicMemberPricingComponent__RenderFunc(props) {
               )}
             >
               {
-                "Create a custom solution for your global remote company. Get volume pricing and bespoke functionality designed around your unique compliance and payment needs."
+                "Access talent from anywhere in the world. Join a global community of startup founders, freelancers, and creators ready to help your company succeed."
               }
             </div>
           </div>
@@ -829,6 +878,78 @@ function PlasmicMemberPricingComponent__RenderFunc(props) {
           </ButtonPrimary>
         </p.Stack>
       </p.Stack>
+
+      <p.Stack
+        as={"div"}
+        data-plasmic-name={"enterpriseSolution"}
+        data-plasmic-override={overrides.enterpriseSolution}
+        hasGap={true}
+        className={classNames(projectcss.all, sty.enterpriseSolution)}
+      >
+        {true ? (
+          <div className={classNames(projectcss.all, sty.freeBox__dPzGx)}>
+            <BadgeSectionTitle
+              border={true}
+              className={classNames(
+                "__wab_instance",
+                sty.badgeSectionTitle__ohmqU
+              )}
+              colors={"brand"}
+              sectionTitleSlot={"enterprise"}
+            />
+          </div>
+        ) : null}
+
+        <p.Stack
+          as={"div"}
+          hasGap={true}
+          className={classNames(projectcss.all, sty.freeBox__y7D6Z)}
+        >
+          <div className={classNames(projectcss.all, sty.freeBox__okaLu)}>
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__wwNCl
+              )}
+            >
+              {"Enterprise solutions"}
+            </div>
+          </div>
+
+          <div className={classNames(projectcss.all, sty.freeBox___5NdC)}>
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text___39Les
+              )}
+            >
+              {
+                "Create a custom solution for your global remote company. Get volume pricing and bespoke functionality designed around your unique compliance and payment needs."
+              }
+            </div>
+          </div>
+
+          <ButtonPrimary
+            className={classNames("__wab_instance", sty.buttonPrimary__lABwA)}
+            color={"primary"}
+            destination={"https://intrepidventures.typeform.com/to/MthpVWrA"}
+            type={"primary"}
+            width={"_360"}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__tPycJ
+              )}
+            >
+              {"Request access"}
+            </div>
+          </ButtonPrimary>
+        </p.Stack>
+      </p.Stack>
     </p.Stack>
   );
 }
@@ -839,13 +960,15 @@ const PlasmicDescendants = {
     "pricing",
     "monthlyPricingDiv",
     "annualPricingDiv",
-    "enterpriseSolutions"
+    "startupSolution",
+    "enterpriseSolution"
   ],
 
   pricing: ["pricing", "monthlyPricingDiv", "annualPricingDiv"],
   monthlyPricingDiv: ["monthlyPricingDiv"],
   annualPricingDiv: ["annualPricingDiv"],
-  enterpriseSolutions: ["enterpriseSolutions"]
+  startupSolution: ["startupSolution"],
+  enterpriseSolution: ["enterpriseSolution"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -880,7 +1003,8 @@ export const PlasmicMemberPricingComponent = Object.assign(
     pricing: makeNodeComponent("pricing"),
     monthlyPricingDiv: makeNodeComponent("monthlyPricingDiv"),
     annualPricingDiv: makeNodeComponent("annualPricingDiv"),
-    enterpriseSolutions: makeNodeComponent("enterpriseSolutions"),
+    startupSolution: makeNodeComponent("startupSolution"),
+    enterpriseSolution: makeNodeComponent("enterpriseSolution"),
     // Metadata about props expected for PlasmicMemberPricingComponent
     internalVariantProps: PlasmicMemberPricingComponent__VariantProps,
     internalArgProps: PlasmicMemberPricingComponent__ArgProps

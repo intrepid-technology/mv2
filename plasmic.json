@@ -3624,6 +3624,19 @@
           "cssFilePath": "plasmic/remote_v_1/PlasmicCardDashboardNavDisplay.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "CM_KGGfiH99",
+          "name": "PricingCard",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/remote_v_1/PlasmicPricingCard.jsx",
+          "importSpec": {
+            "modulePath": "PricingCard.jsx"
+          },
+          "cssFilePath": "plasmic/remote_v_1/PlasmicPricingCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
