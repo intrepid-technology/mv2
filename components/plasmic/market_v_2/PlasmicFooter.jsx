@@ -208,6 +208,18 @@ function PlasmicFooter__RenderFunc(props) {
             />
 
             <FooterLink
+              className={classNames("__wab_instance", sty.footerLink___6PgNe, {
+                [sty.footerLinkcolor___6PgNe4Sg3R]: hasVariant(
+                  variants,
+                  "color",
+                  "color"
+                )
+              })}
+              color={hasVariant(variants, "color", "color") ? "light" : "dark"}
+              slot={"Community"}
+            />
+
+            <FooterLink
               className={classNames("__wab_instance", sty.footerLink__qwKs, {
                 [sty.footerLinkcolor__qwKs4Sg3R]: hasVariant(
                   variants,
@@ -218,74 +230,6 @@ function PlasmicFooter__RenderFunc(props) {
               color={hasVariant(variants, "color", "color") ? "light" : "dark"}
               destination={"https://news.tryintrepid.com"}
               slot={"Newsletter"}
-            />
-
-            <FooterLink
-              className={classNames("__wab_instance", sty.footerLink___6PgNe, {
-                [sty.footerLinkcolor___6PgNe4Sg3R]: hasVariant(
-                  variants,
-                  "color",
-                  "color"
-                )
-              })}
-              color={hasVariant(variants, "color", "color") ? "light" : "dark"}
-              slot={"Help center"}
-            />
-          </p.Stack>
-
-          <p.Stack
-            as={"div"}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__l8Tzr)}
-          >
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text___9Wf6,
-                {
-                  [sty.textcolor___9Wf64Sg3R]: hasVariant(
-                    variants,
-                    "color",
-                    "color"
-                  )
-                }
-              )}
-            >
-              {"Remote Native"}
-            </div>
-
-            {(hasVariant(variants, "color", "color") ? true : true) ? (
-              <FooterLink
-                className={classNames("__wab_instance", sty.footerLink__c1As0, {
-                  [sty.footerLinkcolor__c1As04Sg3R]: hasVariant(
-                    variants,
-                    "color",
-                    "color"
-                  )
-                })}
-                color={
-                  hasVariant(variants, "color", "color") ? "light" : "dark"
-                }
-                slot={"Podcast"}
-              />
-            ) : null}
-
-            <FooterLink
-              className={classNames("__wab_instance", sty.footerLink__ugLtb, {
-                [sty.footerLinkcolor__ugLtb4Sg3R]: hasVariant(
-                  variants,
-                  "color",
-                  "color"
-                )
-              })}
-              color={hasVariant(variants, "color", "color") ? "light" : "dark"}
-              destination={
-                hasVariant(variants, "color", "color")
-                  ? "https://intrepid.remotenative.io/"
-                  : undefined
-              }
-              slot={"Community"}
             />
           </p.Stack>
 
@@ -306,36 +250,34 @@ function PlasmicFooter__RenderFunc(props) {
               })}
             >
               <FooterSocialLink
-                className={classNames(
-                  "__wab_instance",
-                  sty.footerSocialLink__uxCdr,
-                  {
-                    [sty.footerSocialLinkcolor__uxCdr4Sg3R]: hasVariant(
-                      variants,
-                      "color",
-                      "color"
-                    )
-                  }
-                )}
+                data-plasmic-name={"facebook"}
+                data-plasmic-override={overrides.facebook}
+                className={classNames("__wab_instance", sty.facebook, {
+                  [sty.facebookcolor]: hasVariant(variants, "color", "color")
+                })}
                 color={
                   hasVariant(variants, "color", "color") ? "light" : "dark"
+                }
+                destination={
+                  hasVariant(globalVariants, "screen", "desktop")
+                    ? "https://www.facebook.com/tryintrepid"
+                    : "https://www.facebook.com/tryintrepid"
                 }
               />
 
               <FooterSocialLink
-                className={classNames(
-                  "__wab_instance",
-                  sty.footerSocialLink__ouoch,
-                  {
-                    [sty.footerSocialLinkcolor__ouoch4Sg3R]: hasVariant(
-                      variants,
-                      "color",
-                      "color"
-                    )
-                  }
-                )}
+                data-plasmic-name={"instagram"}
+                data-plasmic-override={overrides.instagram}
+                className={classNames("__wab_instance", sty.instagram, {
+                  [sty.instagramcolor]: hasVariant(variants, "color", "color")
+                })}
                 color={
                   hasVariant(variants, "color", "color") ? "light" : "dark"
+                }
+                destination={
+                  hasVariant(globalVariants, "screen", "desktop")
+                    ? "https://www.instagram.com/tryintrepid/"
+                    : "https://www.instagram.com/tryintrepid/"
                 }
               >
                 <Icon9Icon
@@ -351,19 +293,18 @@ function PlasmicFooter__RenderFunc(props) {
               </FooterSocialLink>
 
               <FooterSocialLink
-                className={classNames(
-                  "__wab_instance",
-                  sty.footerSocialLink__h3SeG,
-                  {
-                    [sty.footerSocialLinkcolor__h3SeG4Sg3R]: hasVariant(
-                      variants,
-                      "color",
-                      "color"
-                    )
-                  }
-                )}
+                data-plasmic-name={"linkedin"}
+                data-plasmic-override={overrides.linkedin}
+                className={classNames("__wab_instance", sty.linkedin, {
+                  [sty.linkedincolor]: hasVariant(variants, "color", "color")
+                })}
                 color={
                   hasVariant(variants, "color", "color") ? "light" : "dark"
+                }
+                destination={
+                  hasVariant(globalVariants, "screen", "desktop")
+                    ? "https://linkedin.com/company/intrepidremote"
+                    : "https://www.linkedin.com/company/tryintrepid"
                 }
               >
                 <Icon10Icon
@@ -379,19 +320,18 @@ function PlasmicFooter__RenderFunc(props) {
               </FooterSocialLink>
 
               <FooterSocialLink
-                className={classNames(
-                  "__wab_instance",
-                  sty.footerSocialLink__ymEz9,
-                  {
-                    [sty.footerSocialLinkcolor__ymEz94Sg3R]: hasVariant(
-                      variants,
-                      "color",
-                      "color"
-                    )
-                  }
-                )}
+                data-plasmic-name={"twitter"}
+                data-plasmic-override={overrides.twitter}
+                className={classNames("__wab_instance", sty.twitter, {
+                  [sty.twittercolor]: hasVariant(variants, "color", "color")
+                })}
                 color={
                   hasVariant(variants, "color", "color") ? "light" : "dark"
+                }
+                destination={
+                  hasVariant(globalVariants, "screen", "desktop")
+                    ? "https://twitter.com/tryintrepid"
+                    : "https://twitter.com/tryintrepid"
                 }
               >
                 <Icon12Icon
@@ -407,19 +347,18 @@ function PlasmicFooter__RenderFunc(props) {
               </FooterSocialLink>
 
               <FooterSocialLink
-                className={classNames(
-                  "__wab_instance",
-                  sty.footerSocialLink___4Euvr,
-                  {
-                    [sty.footerSocialLinkcolor___4Euvr4Sg3R]: hasVariant(
-                      variants,
-                      "color",
-                      "color"
-                    )
-                  }
-                )}
+                data-plasmic-name={"youtube"}
+                data-plasmic-override={overrides.youtube}
+                className={classNames("__wab_instance", sty.youtube, {
+                  [sty.youtubecolor]: hasVariant(variants, "color", "color")
+                })}
                 color={
                   hasVariant(variants, "color", "color") ? "light" : "dark"
+                }
+                destination={
+                  hasVariant(globalVariants, "screen", "desktop")
+                    ? "http://www.youtube.com/channel/UCefe54paxJv4KnBfu89EgCQ"
+                    : "http://www.youtube.com/channel/UCefe54paxJv4KnBfu89EgCQ"
                 }
               >
                 <Icon11Icon
@@ -611,9 +550,25 @@ function PlasmicFooter__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "logoHeader", "social", "social2"],
+  root: [
+    "root",
+    "logoHeader",
+    "social",
+    "facebook",
+    "instagram",
+    "linkedin",
+    "twitter",
+    "youtube",
+    "social2"
+  ],
+
   logoHeader: ["logoHeader"],
-  social: ["social"],
+  social: ["social", "facebook", "instagram", "linkedin", "twitter", "youtube"],
+  facebook: ["facebook"],
+  instagram: ["instagram"],
+  linkedin: ["linkedin"],
+  twitter: ["twitter"],
+  youtube: ["youtube"],
   social2: ["social2"]
 };
 
@@ -648,6 +603,11 @@ export const PlasmicFooter = Object.assign(
     // Helper components rendering sub-elements
     logoHeader: makeNodeComponent("logoHeader"),
     social: makeNodeComponent("social"),
+    facebook: makeNodeComponent("facebook"),
+    instagram: makeNodeComponent("instagram"),
+    linkedin: makeNodeComponent("linkedin"),
+    twitter: makeNodeComponent("twitter"),
+    youtube: makeNodeComponent("youtube"),
     social2: makeNodeComponent("social2"),
     // Metadata about props expected for PlasmicFooter
     internalVariantProps: PlasmicFooter__VariantProps,
