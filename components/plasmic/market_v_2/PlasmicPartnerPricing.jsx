@@ -24,6 +24,9 @@ import PricingPageElementTeamBlock from "../../PricingPageElementTeamBlock"; // 
 import PricingPageElementServiceBlock from "../../PricingPageElementServiceBlock"; // plasmic-import: 7N2UMf446In/component
 import TablePricing from "../../TablePricing"; // plasmic-import: TN5u_5IVRmW/component
 import CardFeatureDescription from "../../CardFeatureDescription"; // plasmic-import: g0j2UvLSvh/component
+import Navbar from "../../Navbar"; // plasmic-import: pP9c6XTFzc/component
+import SellerPricing from "../../SellerPricing"; // plasmic-import: VH6Z-VtTrt/component
+import Footer from "../../Footer"; // plasmic-import: eCAXzaJOOM3/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -64,424 +67,1002 @@ function PlasmicPartnerpricing__RenderFunc(props) {
       `}</style>
 
       <div className={projectcss.plasmic_page_wrapper}>
-        <p.Stack
-          as={"div"}
-          data-plasmic-name={"root"}
-          data-plasmic-override={overrides.root}
-          data-plasmic-root={true}
-          data-plasmic-for-node={forNode}
-          hasGap={true}
-          className={classNames(
-            projectcss.all,
-            projectcss.root_reset,
-            projectcss.plasmic_default_styles,
-            projectcss.plasmic_tokens,
-            sty.root
-          )}
-        >
-          {false ? (
-            <NavbarPrimary
-              data-plasmic-name={"navbarPrimary"}
-              data-plasmic-override={overrides.navbarPrimary}
-              className={classNames("__wab_instance", sty.navbarPrimary)}
-              user={"seller"}
-            />
-          ) : null}
-
-          <p.Stack
-            as={"div"}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__xw3D5)}
+        {true ? (
+          <div
+            data-plasmic-name={"root"}
+            data-plasmic-override={overrides.root}
+            data-plasmic-root={true}
+            data-plasmic-for-node={forNode}
+            className={classNames(
+              projectcss.all,
+              projectcss.root_reset,
+              projectcss.plasmic_default_styles,
+              projectcss.plasmic_mixins,
+              projectcss.plasmic_tokens,
+              sty.root
+            )}
           >
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text___8NTuR
-              )}
-            >
-              {"Grow from solopreneur to global creative force."}
-            </div>
-
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__puJal
-              )}
-            >
-              {
-                "Scope and create unique offerings from our library of services, collaborate with partners, and sell directly to your followers, startups, and global brands - all over the world."
-              }
-            </div>
-
-            <ButtonPrimary
-              data-plasmic-name={"partnerSellingButton"}
-              data-plasmic-override={overrides.partnerSellingButton}
-              className={classNames("__wab_instance", sty.partnerSellingButton)}
-              color={"primary"}
-              width={"_360"}
-            >
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__bCnFr
-                )}
-              >
-                {"Start selling"}
-              </div>
-            </ButtonPrimary>
-          </p.Stack>
-
-          <p.Stack
-            as={"div"}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__mNj8P)}
-          >
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"overlineHeadline"}
-              data-plasmic-override={overrides.overlineHeadline}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.overlineHeadline)}
-            >
+            {true ? (
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox__qXrCf)}
+                className={classNames(projectcss.all, sty.freeBox__cmA7X)}
               >
-                <LineIcon
-                  className={classNames(projectcss.all, sty.svg__hvInH)}
-                  role={"img"}
-                />
+                {false ? (
+                  <NavbarPrimary
+                    data-plasmic-name={"navbarPrimary"}
+                    data-plasmic-override={overrides.navbarPrimary}
+                    className={classNames("__wab_instance", sty.navbarPrimary)}
+                    user={"seller"}
+                  />
+                ) : null}
 
-                <div
-                  className={classNames(projectcss.all, sty.freeBox___24Ig5)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__e3Ga9
-                    )}
-                  >
-                    {"Free to start"}
-                  </div>
-                </div>
-
-                <LineIcon
-                  className={classNames(projectcss.all, sty.svg__cuOou)}
-                  role={"img"}
-                />
-              </p.Stack>
-
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text___6REb0
-                )}
-              >
-                {"We grow and get better only when our partners make money."}
-              </div>
-            </p.Stack>
-
-            <p.Stack
-              as={"div"}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.freeBox__prYez)}
-            >
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox__rcvlP)}
-              >
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__lIpfr)}
+                  className={classNames(projectcss.all, sty.freeBox__xw3D5)}
                 >
                   <div
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
-                      sty.text__cbj2J
+                      sty.text___8NTuR
                     )}
                   >
-                    {"Maker"}
+                    {"Grow from solopreneur to global creative force."}
                   </div>
 
                   <div
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
-                      sty.text__azDnF
+                      sty.text__puJal
                     )}
                   >
-                    {"Partner"}
+                    {
+                      "Scope and create unique offerings from our library of services, collaborate with partners, and sell directly to your followers, startups, and global brands - all over the world."
+                    }
+                  </div>
+
+                  <ButtonPrimary
+                    data-plasmic-name={"partnerSellingButton"}
+                    data-plasmic-override={overrides.partnerSellingButton}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.partnerSellingButton
+                    )}
+                    color={"primary"}
+                    width={"_360"}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__bCnFr
+                      )}
+                    >
+                      {"Start selling"}
+                    </div>
+                  </ButtonPrimary>
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__mNj8P)}
+                >
+                  <p.Stack
+                    as={"div"}
+                    data-plasmic-name={"overlineHeadline"}
+                    data-plasmic-override={overrides.overlineHeadline}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.overlineHeadline)}
+                  >
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__qXrCf)}
+                    >
+                      <LineIcon
+                        className={classNames(projectcss.all, sty.svg__hvInH)}
+                        role={"img"}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox___24Ig5
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__e3Ga9
+                          )}
+                        >
+                          {"Free to start"}
+                        </div>
+                      </div>
+
+                      <LineIcon
+                        className={classNames(projectcss.all, sty.svg__cuOou)}
+                        role={"img"}
+                      />
+                    </p.Stack>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___6REb0
+                      )}
+                    >
+                      {
+                        "We grow and get better only when our partners make money."
+                      }
+                    </div>
+                  </p.Stack>
+
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__prYez)}
+                  >
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__rcvlP)}
+                    >
+                      <p.Stack
+                        as={"div"}
+                        hasGap={true}
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__lIpfr
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__cbj2J
+                          )}
+                        >
+                          {"Maker"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__azDnF
+                          )}
+                        >
+                          {"Partner"}
+                        </div>
+                      </p.Stack>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__wFuH
+                        )}
+                      >
+                        {
+                          "It's free to start and get everything you need to create meaningful income for your business, your collaborators, and a rewarding experience for your followers and clients."
+                        }
+                      </div>
+                    </p.Stack>
+
+                    <p.Stack
+                      as={"div"}
+                      data-plasmic-name={"partnerMakerPricingTable"}
+                      data-plasmic-override={overrides.partnerMakerPricingTable}
+                      hasGap={true}
+                      className={classNames(
+                        projectcss.all,
+                        sty.partnerMakerPricingTable
+                      )}
+                    >
+                      <p.Stack
+                        as={"div"}
+                        data-plasmic-name={"featureParent"}
+                        data-plasmic-override={overrides.featureParent}
+                        hasGap={true}
+                        className={classNames(
+                          projectcss.all,
+                          sty.featureParent
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__vwxfs
+                          )}
+                        >
+                          {"features"}
+                        </div>
+
+                        <p.Stack
+                          as={"div"}
+                          data-plasmic-name={"textIconFeature"}
+                          data-plasmic-override={overrides.textIconFeature}
+                          hasGap={true}
+                          className={classNames(
+                            projectcss.all,
+                            sty.textIconFeature
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__wlPz
+                            )}
+                          >
+                            <Icon129Icon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__hgDJg
+                              )}
+                              role={"img"}
+                            />
+                          </div>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__gnwu
+                            )}
+                          >
+                            {"Get started for free"}
+                          </div>
+                        </p.Stack>
+
+                        <p.Stack
+                          as={"div"}
+                          data-plasmic-name={"textIconFeature3"}
+                          data-plasmic-override={overrides.textIconFeature3}
+                          hasGap={true}
+                          className={classNames(
+                            projectcss.all,
+                            sty.textIconFeature3
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__an01O
+                            )}
+                          >
+                            <Icon129Icon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__k5Yt
+                              )}
+                              role={"img"}
+                            />
+                          </div>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text___2Xzml
+                            )}
+                          >
+                            {"No annual fee"}
+                          </div>
+                        </p.Stack>
+
+                        <p.Stack
+                          as={"div"}
+                          data-plasmic-name={"textIconFeature22"}
+                          data-plasmic-override={overrides.textIconFeature22}
+                          hasGap={true}
+                          className={classNames(
+                            projectcss.all,
+                            sty.textIconFeature22
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__qXBn
+                            )}
+                          >
+                            <Icon129Icon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg___5Jdjh
+                              )}
+                              role={"img"}
+                            />
+                          </div>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__elFdi
+                            )}
+                          >
+                            {"Hosted Partner profile"}
+                          </div>
+                        </p.Stack>
+
+                        <p.Stack
+                          as={"div"}
+                          data-plasmic-name={"textIconFeature4"}
+                          data-plasmic-override={overrides.textIconFeature4}
+                          hasGap={true}
+                          className={classNames(
+                            projectcss.all,
+                            sty.textIconFeature4
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__ewRxj
+                            )}
+                          >
+                            <Icon129Icon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__igdmc
+                              )}
+                              role={"img"}
+                            />
+                          </div>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text___78O4P
+                            )}
+                          >
+                            {"Join events & webinars"}
+                          </div>
+                        </p.Stack>
+
+                        <p.Stack
+                          as={"div"}
+                          data-plasmic-name={"textIconFeature5"}
+                          data-plasmic-override={overrides.textIconFeature5}
+                          hasGap={true}
+                          className={classNames(
+                            projectcss.all,
+                            sty.textIconFeature5
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox___5ZbyH
+                            )}
+                          >
+                            <Icon129Icon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__hijmx
+                              )}
+                              role={"img"}
+                            />
+                          </div>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text___3JRw8
+                            )}
+                          >
+                            {"Access community and messaging"}
+                          </div>
+                        </p.Stack>
+
+                        <PricingPageElementTeamBlock
+                          data-plasmic-name={"pricingPageElementTeamBlock"}
+                          data-plasmic-override={
+                            overrides.pricingPageElementTeamBlock
+                          }
+                          className={classNames(
+                            "__wab_instance",
+                            sty.pricingPageElementTeamBlock
+                          )}
+                          slot={
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__zGDs
+                              )}
+                            >
+                              {"1"}
+                            </div>
+                          }
+                          slot2={
+                            <TeamPartnersIcon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__qwFmK
+                              )}
+                              role={"img"}
+                            />
+                          }
+                          slot3={
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text___0SwN
+                              )}
+                            >
+                              {"Team"}
+                            </div>
+                          }
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__h2Lcy
+                            )}
+                          >
+                            {"User included"}
+                          </div>
+                        </PricingPageElementTeamBlock>
+
+                        <PricingPageElementServiceBlock
+                          data-plasmic-name={"pricingPageElementServiceBlock"}
+                          data-plasmic-override={
+                            overrides.pricingPageElementServiceBlock
+                          }
+                          className={classNames(
+                            "__wab_instance",
+                            sty.pricingPageElementServiceBlock
+                          )}
+                          featurevalueText={
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__br3D7
+                              )}
+                            >
+                              {"Priority upgrade per listing"}
+                            </div>
+                          }
+                          slot={
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__wkLr
+                              )}
+                            >
+                              {"8"}
+                            </div>
+                          }
+                          slot10={
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text___0BkM2
+                              )}
+                            >
+                              {"Standard rate per listing"}
+                            </div>
+                          }
+                          slot11={
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__kkFlc
+                              )}
+                            >
+                              {"Payment processing fees"}
+                            </div>
+                          }
+                          slot12={
+                            <Icon164Icon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__btZgk
+                              )}
+                              role={"img"}
+                            />
+                          }
+                          slot13={
+                            <FileInvoiceIcon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg___7TLq
+                              )}
+                              role={"img"}
+                            />
+                          }
+                          slot14={
+                            <ListingIcon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__vWvO0
+                              )}
+                              role={"img"}
+                            />
+                          }
+                          slot15={
+                            <Icon169Icon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__ia9B
+                              )}
+                              role={"img"}
+                            />
+                          }
+                          slot2={
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__kchUz
+                              )}
+                            >
+                              {"5"}
+                            </div>
+                          }
+                          slot3={
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__fnvBx
+                              )}
+                            >
+                              {"3"}
+                            </div>
+                          }
+                          slot4={
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__xi5G5
+                              )}
+                            >
+                              {"Service rate on earned income"}
+                            </div>
+                          }
+                          slot5={
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__jiukn
+                              )}
+                            >
+                              {"$"}
+                            </div>
+                          }
+                          slot6={
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__igePv
+                              )}
+                            >
+                              {"Service"}
+                            </div>
+                          }
+                          slot7={
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__ePb1H
+                              )}
+                            >
+                              {"$"}
+                            </div>
+                          }
+                          slot8={
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__pMdXl
+                              )}
+                            >
+                              {"%"}
+                            </div>
+                          }
+                          slot9={
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__ezKan
+                              )}
+                            >
+                              {"%"}
+                            </div>
+                          }
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text___6CITc
+                            )}
+                          >
+                            {"0"}
+                          </div>
+                        </PricingPageElementServiceBlock>
+                      </p.Stack>
+
+                      <p.Stack
+                        as={"div"}
+                        hasGap={true}
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__ytqvk
+                        )}
+                      >
+                        <p.Stack
+                          as={"div"}
+                          hasGap={true}
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__cDx72
+                          )}
+                        >
+                          <div
+                            data-plasmic-name={"dollarPrice"}
+                            data-plasmic-override={overrides.dollarPrice}
+                            className={classNames(
+                              projectcss.all,
+                              sty.dollarPrice
+                            )}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__dBblD
+                              )}
+                            >
+                              {"$"}
+                            </div>
+
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__gD8J
+                              )}
+                            >
+                              {"0"}
+                            </div>
+                          </div>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__lr5Y
+                            )}
+                          >
+                            {"/Year"}
+                          </div>
+                        </p.Stack>
+
+                        <ButtonPrimary
+                          className={classNames(
+                            "__wab_instance",
+                            sty.buttonPrimary__rw226
+                          )}
+                          color={"primary"}
+                          width={"_270"}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__keGh
+                            )}
+                          >
+                            {"Start selling"}
+                          </div>
+                        </ButtonPrimary>
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text___3GDyF
+                          )}
+                        >
+                          {"No creditcard required"}
+                        </div>
+                      </p.Stack>
+                    </p.Stack>
+                  </p.Stack>
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__ndgje)}
+                >
+                  <p.Stack
+                    as={"div"}
+                    data-plasmic-name={"overlineHeadline22"}
+                    data-plasmic-override={overrides.overlineHeadline22}
+                    hasGap={true}
+                    className={classNames(
+                      projectcss.all,
+                      sty.overlineHeadline22
+                    )}
+                  >
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__wz9Wv)}
+                    >
+                      <LineIcon
+                        className={classNames(projectcss.all, sty.svg__isDr)}
+                        role={"img"}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__kLpgA
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__y1Qv5
+                          )}
+                        >
+                          {"Premium Plans"}
+                        </div>
+                      </div>
+
+                      <LineIcon
+                        className={classNames(projectcss.all, sty.svg__eSZ)}
+                        role={"img"}
+                      />
+                    </p.Stack>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__xSr4P
+                      )}
+                    >
+                      {"Designed for every stage of your business growth."}
+                    </div>
+                  </p.Stack>
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___58Cuj
+                    )}
+                  >
+                    {
+                      "Go from a one person creative professional to a global studio. Work from anywhere - on your terms - knowing you have a community to support you at every stage of your growth."
+                    }
                   </div>
                 </p.Stack>
 
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__wFuH
-                  )}
-                >
-                  {
-                    "It's free to start and get everything you need to create meaningful income for your business, your collaborators, and a rewarding experience for your followers and clients."
-                  }
-                </div>
-              </p.Stack>
-
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"partnerMakerPricingTable"}
-                data-plasmic-override={overrides.partnerMakerPricingTable}
-                hasGap={true}
-                className={classNames(
-                  projectcss.all,
-                  sty.partnerMakerPricingTable
-                )}
-              >
                 <p.Stack
                   as={"div"}
-                  data-plasmic-name={"featureParent"}
-                  data-plasmic-override={overrides.featureParent}
+                  data-plasmic-name={"partnerPricingTableSection"}
+                  data-plasmic-override={overrides.partnerPricingTableSection}
                   hasGap={true}
-                  className={classNames(projectcss.all, sty.featureParent)}
+                  className={classNames(
+                    projectcss.all,
+                    sty.partnerPricingTableSection
+                  )}
                 >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__vwxfs
-                    )}
-                  >
-                    {"features"}
-                  </div>
-
-                  <p.Stack
-                    as={"div"}
-                    data-plasmic-name={"textIconFeature"}
-                    data-plasmic-override={overrides.textIconFeature}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.textIconFeature)}
-                  >
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__wlPz)}
-                    >
-                      <Icon129Icon
-                        className={classNames(projectcss.all, sty.svg__hgDJg)}
-                        role={"img"}
-                      />
-                    </div>
-
-                    <div
+                  {true ? (
+                    <TablePricing
+                      data-plasmic-name={"partnerProPricingTable"}
+                      data-plasmic-override={overrides.partnerProPricingTable}
                       className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__gnwu
+                        "__wab_instance",
+                        sty.partnerProPricingTable
                       )}
+                      slot={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__hb4Af
+                          )}
+                        >
+                          {
+                            "Choose if you are an independent creative professional or solopreneur getting ready to grow your creative technology studio."
+                          }
+                        </div>
+                      }
+                      slot12={"Service rate on income"}
+                      slot14={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__aeqQq
+                          )}
+                        >
+                          {"Everything in Maker - plus"}
+                        </div>
+                      }
+                      slot15={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__vzHXs
+                          )}
+                        >
+                          {"Verified profile"}
+                        </div>
+                      }
+                      slot16={"Receive and respond to direct messages."}
+                      slot17={"Priority access to events and workshops"}
+                      slot18={"Email and community support"}
+                      slot20={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text___3OnAg
+                          )}
+                        >
+                          {"Start selling"}
+                        </div>
+                      }
+                      slot3={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__pj7Ye
+                          )}
+                        >
+                          {
+                            "Get all the tools you need to grow a global audience and build a valuable business."
+                          }
+                        </div>
+                      }
+                      slot4={"2"}
+                      slot5={"5"}
+                      slot6={"3"}
+                      slot7={"2"}
                     >
-                      {"Get started for free"}
-                    </div>
-                  </p.Stack>
+                      {"Pro"}
+                    </TablePricing>
+                  ) : null}
 
-                  <p.Stack
-                    as={"div"}
-                    data-plasmic-name={"textIconFeature3"}
-                    data-plasmic-override={overrides.textIconFeature3}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.textIconFeature3)}
-                  >
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__an01O)}
-                    >
-                      <Icon129Icon
-                        className={classNames(projectcss.all, sty.svg__k5Yt)}
-                        role={"img"}
-                      />
-                    </div>
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text___2Xzml
-                      )}
-                    >
-                      {"No annual fee"}
-                    </div>
-                  </p.Stack>
-
-                  <p.Stack
-                    as={"div"}
-                    data-plasmic-name={"textIconFeature22"}
-                    data-plasmic-override={overrides.textIconFeature22}
-                    hasGap={true}
-                    className={classNames(
-                      projectcss.all,
-                      sty.textIconFeature22
-                    )}
-                  >
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__qXBn)}
-                    >
-                      <Icon129Icon
-                        className={classNames(projectcss.all, sty.svg___5Jdjh)}
-                        role={"img"}
-                      />
-                    </div>
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__elFdi
-                      )}
-                    >
-                      {"Hosted Partner profile"}
-                    </div>
-                  </p.Stack>
-
-                  <p.Stack
-                    as={"div"}
-                    data-plasmic-name={"textIconFeature4"}
-                    data-plasmic-override={overrides.textIconFeature4}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.textIconFeature4)}
-                  >
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__ewRxj)}
-                    >
-                      <Icon129Icon
-                        className={classNames(projectcss.all, sty.svg__igdmc)}
-                        role={"img"}
-                      />
-                    </div>
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text___78O4P
-                      )}
-                    >
-                      {"Join events & webinars"}
-                    </div>
-                  </p.Stack>
-
-                  <p.Stack
-                    as={"div"}
-                    data-plasmic-name={"textIconFeature5"}
-                    data-plasmic-override={overrides.textIconFeature5}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.textIconFeature5)}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        sty.freeBox___5ZbyH
-                      )}
-                    >
-                      <Icon129Icon
-                        className={classNames(projectcss.all, sty.svg__hijmx)}
-                        role={"img"}
-                      />
-                    </div>
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text___3JRw8
-                      )}
-                    >
-                      {"Access community and messaging"}
-                    </div>
-                  </p.Stack>
-
-                  <PricingPageElementTeamBlock
-                    data-plasmic-name={"pricingPageElementTeamBlock"}
-                    data-plasmic-override={
-                      overrides.pricingPageElementTeamBlock
-                    }
+                  <TablePricing
+                    data-plasmic-name={"partnerStartupPricingTable"}
+                    data-plasmic-override={overrides.partnerStartupPricingTable}
                     className={classNames(
                       "__wab_instance",
-                      sty.pricingPageElementTeamBlock
+                      sty.partnerStartupPricingTable
                     )}
                     slot={
                       <div
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__zGDs
+                          sty.text__soZsm
                         )}
                       >
-                        {"1"}
+                        {
+                          "Choose if you are scaling up your studio and want more tools to manage your business and collaborate with other teams."
+                        }
                       </div>
                     }
+                    slot12={"Service rate on income"}
+                    slot14={
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__jmO9N
+                        )}
+                      >
+                        {"Everything in Pro - plus"}
+                      </div>
+                    }
+                    slot15={
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text___1Jop3
+                        )}
+                      >
+                        {"Advanced partner profile"}
+                      </div>
+                    }
+                    slot16={"Advanced composite products & services"}
+                    slot17={"Subscription & promotion management tools"}
+                    slot18={"Chat support"}
                     slot2={
-                      <TeamPartnersIcon
-                        className={classNames(projectcss.all, sty.svg__qwFmK)}
-                        role={"img"}
-                      />
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__jBfaa
+                        )}
+                      >
+                        {"75"}
+                      </div>
+                    }
+                    slot20={
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text___6KZ0
+                        )}
+                      >
+                        {"Start selling"}
+                      </div>
                     }
                     slot3={
                       <div
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text___0SwN
+                          sty.text__oaVu
                         )}
                       >
-                        {"Team"}
+                        {
+                          "Form teams, collaborate, and access advanced scoping and service design tools."
+                        }
                       </div>
                     }
+                    slot6={"2"}
                   >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__h2Lcy
-                      )}
-                    >
-                      {"User included"}
-                    </div>
-                  </PricingPageElementTeamBlock>
+                    {"Studio"}
+                  </TablePricing>
 
-                  <PricingPageElementServiceBlock
-                    data-plasmic-name={"pricingPageElementServiceBlock"}
-                    data-plasmic-override={
-                      overrides.pricingPageElementServiceBlock
-                    }
+                  <TablePricing
+                    data-plasmic-name={"partnerAgencyPricingtable"}
+                    data-plasmic-override={overrides.partnerAgencyPricingtable}
                     className={classNames(
                       "__wab_instance",
-                      sty.pricingPageElementServiceBlock
+                      sty.partnerAgencyPricingtable
                     )}
-                    featurevalueText={
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__br3D7
-                        )}
-                      >
-                        {"Priority upgrade per listing"}
-                      </div>
-                    }
                     slot={
                       <div
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__wkLr
+                          sty.text__eSuWu
                         )}
                       >
-                        {"8"}
+                        {
+                          "Choose if you are a global agency that wants advanced subscription, composite services, expense management, and collaboration tools."
+                        }
                       </div>
                     }
                     slot10={
@@ -489,10 +1070,10 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text___0BkM2
+                          sty.text__dBtJw
                         )}
                       >
-                        {"Standard rate per listing"}
+                        {"Free listings"}
                       </div>
                     }
                     slot11={
@@ -500,45 +1081,59 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__kkFlc
+                          sty.text__xNvSn
                         )}
                       >
-                        {"Payment processing fees"}
+                        {"$"}
                       </div>
                     }
-                    slot12={
-                      <Icon164Icon
-                        className={classNames(projectcss.all, sty.svg__btZgk)}
-                        role={"img"}
-                      />
-                    }
-                    slot13={
-                      <FileInvoiceIcon
-                        className={classNames(projectcss.all, sty.svg___7TLq)}
-                        role={"img"}
-                      />
-                    }
+                    slot12={"No service rate on income"}
+                    slot13={"Payment processing fees"}
                     slot14={
-                      <ListingIcon
-                        className={classNames(projectcss.all, sty.svg__vWvO0)}
-                        role={"img"}
-                      />
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__qwBj
+                        )}
+                      >
+                        {"Everything in Studio - plus"}
+                      </div>
                     }
                     slot15={
-                      <Icon169Icon
-                        className={classNames(projectcss.all, sty.svg__ia9B)}
-                        role={"img"}
-                      />
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__uaTPf
+                        )}
+                      >
+                        {"Featured partner profile"}
+                      </div>
                     }
+                    slot16={"Priority access to events & workshops."}
+                    slot17={"Partner discount on popular Saas tools."}
+                    slot18={"Dedicated and private partner community."}
                     slot2={
                       <div
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__kchUz
+                          sty.text__bdYey
                         )}
                       >
-                        {"5"}
+                        {"100"}
+                      </div>
+                    }
+                    slot20={
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__iDzgz
+                        )}
+                      >
+                        {"Start selling"}
                       </div>
                     }
                     slot3={
@@ -546,32 +1141,24 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__fnvBx
+                          sty.text__nyPzf
                         )}
                       >
-                        {"3"}
+                        {
+                          "Get a featured profile, priority access to community events, and partner discounts."
+                        }
                       </div>
                     }
-                    slot4={
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__xi5G5
-                        )}
-                      >
-                        {"Service rate on earned income"}
-                      </div>
-                    }
+                    slot4={"10"}
                     slot5={
                       <div
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__jiukn
+                          sty.text__fJzLf
                         )}
                       >
-                        {"$"}
+                        {"0"}
                       </div>
                     }
                     slot6={
@@ -579,10 +1166,10 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__igePv
+                          sty.text__wkgWa
                         )}
                       >
-                        {"Service"}
+                        {"0"}
                       </div>
                     }
                     slot7={
@@ -590,10 +1177,10 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__ePb1H
+                          sty.text__hmuIu
                         )}
                       >
-                        {"$"}
+                        {"1"}
                       </div>
                     }
                     slot8={
@@ -601,10 +1188,10 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__pMdXl
+                          sty.text___9X4By
                         )}
                       >
-                        {"%"}
+                        {"$"}
                       </div>
                     }
                     slot9={
@@ -612,772 +1199,355 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__ezKan
+                          sty.text___471ZH
                         )}
                       >
-                        {"%"}
+                        {"Free priority placement by default"}
                       </div>
                     }
                   >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text___6CITc
-                      )}
-                    >
-                      {"0"}
-                    </div>
-                  </PricingPageElementServiceBlock>
+                    {"Agency"}
+                  </TablePricing>
                 </p.Stack>
 
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__ytqvk)}
+                  className={classNames(projectcss.all, sty.freeBox__jppWz)}
                 >
                   <p.Stack
                     as={"div"}
+                    data-plasmic-name={"overlineHeadline2"}
+                    data-plasmic-override={overrides.overlineHeadline2}
                     hasGap={true}
-                    className={classNames(projectcss.all, sty.freeBox__cDx72)}
+                    className={classNames(
+                      projectcss.all,
+                      sty.overlineHeadline2
+                    )}
                   >
-                    <div
-                      data-plasmic-name={"dollarPrice"}
-                      data-plasmic-override={overrides.dollarPrice}
-                      className={classNames(projectcss.all, sty.dollarPrice)}
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__bRr8N)}
                     >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__dBblD
-                        )}
-                      >
-                        {"$"}
-                      </div>
+                      <LineIcon
+                        className={classNames(projectcss.all, sty.svg__j23Tq)}
+                        role={"img"}
+                      />
 
                       <div
                         className={classNames(
                           projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__gD8J
+                          sty.freeBox__eGh7N
                         )}
                       >
-                        {"0"}
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__gzqj2
+                          )}
+                        >
+                          {"Benefits"}
+                        </div>
                       </div>
-                    </div>
+
+                      <LineIcon
+                        className={classNames(projectcss.all, sty.svg__lj7Uq)}
+                        role={"img"}
+                      />
+                    </p.Stack>
 
                     <div
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__lr5Y
+                        sty.text__xyCfg
                       )}
                     >
-                      {"/Year"}
+                      {"All memberships include"}
                     </div>
+                  </p.Stack>
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__nM5Y)}
+                >
+                  <CardFeatureDescription
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardFeatureDescription__jzQpV
+                    )}
+                    headline={"Automated scoping & service design"}
+                    iconParent={
+                      <div
+                        data-plasmic-name={"iconBg2"}
+                        data-plasmic-override={overrides.iconBg2}
+                        className={classNames(projectcss.all, sty.iconBg2)}
+                      >
+                        <p.PlasmicIcon
+                          PlasmicIconType={
+                            hasVariant(
+                              globalVariants,
+                              "screen",
+                              "iphone12ProMax"
+                            )
+                              ? DesignIcon
+                              : DesignIcon
+                          }
+                          className={classNames(projectcss.all, sty.svg__biheL)}
+                          role={"img"}
+                        />
+                      </div>
+                    }
+                    text={
+                      "Scope and create unique services, in multiple compositions, blazingly fast, making it easier for clients to buy your services."
+                    }
+                  />
+
+                  <CardFeatureDescription
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardFeatureDescription__z3Wte
+                    )}
+                    headline={"Sell direct to a global audience"}
+                    iconParent={
+                      <div
+                        data-plasmic-name={"iconBg3"}
+                        data-plasmic-override={overrides.iconBg3}
+                        className={classNames(projectcss.all, sty.iconBg3)}
+                      >
+                        <p.PlasmicIcon
+                          PlasmicIconType={
+                            hasVariant(
+                              globalVariants,
+                              "screen",
+                              "iphone12ProMax"
+                            )
+                              ? GlobeAmericaIcon
+                              : GlobeAmericaIcon
+                          }
+                          className={classNames(projectcss.all, sty.svg__vzVi6)}
+                          role={"img"}
+                        />
+                      </div>
+                    }
+                    text={
+                      "Reach a global client base and enjoy a steady flow of high-value, remote-first company clients all year round."
+                    }
+                  />
+
+                  <CardFeatureDescription
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardFeatureDescription__j0WfQ
+                    )}
+                    headline={"Fast International P2P payments"}
+                    iconParent={
+                      <div
+                        data-plasmic-name={"iconBg4"}
+                        data-plasmic-override={overrides.iconBg4}
+                        className={classNames(projectcss.all, sty.iconBg4)}
+                      >
+                        <P2PPayPaymentIcon
+                          className={classNames(projectcss.all, sty.svg__iyhPz)}
+                          role={"img"}
+                        />
+                      </div>
+                    }
+                    text={
+                      "Get paid quickly and easily, even across international borders with automated invoice processing, payments, and escrow."
+                    }
+                  />
+
+                  <CardFeatureDescription
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardFeatureDescription__ts4YO
+                    )}
+                    headline={"Verified profiles, ratings & reviews"}
+                    iconParent={
+                      <div
+                        data-plasmic-name={"iconBg5"}
+                        data-plasmic-override={overrides.iconBg5}
+                        className={classNames(projectcss.all, sty.iconBg5)}
+                      >
+                        <VerifiedIcon
+                          className={classNames(projectcss.all, sty.svg__sVbpm)}
+                          role={"img"}
+                        />
+                      </div>
+                    }
+                    text={
+                      "Become a trusted seller and drive future sales with verified reviews from top-tier enterprises."
+                    }
+                  />
+
+                  <CardFeatureDescription
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardFeatureDescription__kDm22
+                    )}
+                    headline={"Analytics & performance tracking"}
+                    iconParent={
+                      <div
+                        data-plasmic-name={"iconBg6"}
+                        data-plasmic-override={overrides.iconBg6}
+                        className={classNames(projectcss.all, sty.iconBg6)}
+                      >
+                        <ChartIcon
+                          className={classNames(projectcss.all, sty.svg__oD4R)}
+                          role={"img"}
+                        />
+                      </div>
+                    }
+                    text={
+                      "Access powerful analytics and lead generation tools to better understand your followers, customers, and build a scalable and profitable business."
+                    }
+                  />
+
+                  <CardFeatureDescription
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardFeatureDescription__qMfwQ
+                    )}
+                    headline={"Community & collaboration"}
+                    iconParent={
+                      <div
+                        data-plasmic-name={"iconBg"}
+                        data-plasmic-override={overrides.iconBg}
+                        className={classNames(projectcss.all, sty.iconBg)}
+                      >
+                        <TeamPartnersIcon
+                          className={classNames(projectcss.all, sty.svg__yyYG)}
+                          role={"img"}
+                        />
+                      </div>
+                    }
+                    text={
+                      "Learn from leading entrepreneurs, creatives, and cutting-edge technologists from around the world."
+                    }
+                  />
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__mZzs5)}
+                >
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__a1PDa)}
+                  >
+                    <p.Stack
+                      as={"div"}
+                      data-plasmic-name={"overlineHeadline24"}
+                      data-plasmic-override={overrides.overlineHeadline24}
+                      hasGap={true}
+                      className={classNames(
+                        projectcss.all,
+                        sty.overlineHeadline24
+                      )}
+                    >
+                      <p.Stack
+                        as={"div"}
+                        hasGap={true}
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__moLw
+                        )}
+                      >
+                        <LineIcon
+                          className={classNames(projectcss.all, sty.svg__meKzD)}
+                          role={"img"}
+                        />
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__yo8P
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__goBcd
+                            )}
+                          >
+                            {"Community"}
+                          </div>
+                        </div>
+
+                        <LineIcon
+                          className={classNames(projectcss.all, sty.svg__aigQn)}
+                          role={"img"}
+                        />
+                      </p.Stack>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__g9LgJ
+                        )}
+                      >
+                        {
+                          "Join a global marketplace community built for creative entrepreneurs"
+                        }
+                      </div>
+                    </p.Stack>
                   </p.Stack>
 
                   <ButtonPrimary
                     className={classNames(
                       "__wab_instance",
-                      sty.buttonPrimary__rw226
+                      sty.buttonPrimary__tA8Ol
                     )}
                     color={"primary"}
-                    width={"_270"}
+                    width={"_360"}
                   >
                     <div
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__keGh
+                        sty.text__evsG
                       )}
                     >
                       {"Start selling"}
                     </div>
                   </ButtonPrimary>
-
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___3GDyF
-                    )}
-                  >
-                    {"No creditcard required"}
-                  </div>
                 </p.Stack>
               </p.Stack>
-            </p.Stack>
-          </p.Stack>
-
-          <p.Stack
-            as={"div"}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__ndgje)}
-          >
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"overlineHeadline22"}
-              data-plasmic-override={overrides.overlineHeadline22}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.overlineHeadline22)}
-            >
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox__wz9Wv)}
-              >
-                <LineIcon
-                  className={classNames(projectcss.all, sty.svg__isDr)}
-                  role={"img"}
-                />
-
-                <div className={classNames(projectcss.all, sty.freeBox__kLpgA)}>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__y1Qv5
-                    )}
-                  >
-                    {"Premium Plans"}
-                  </div>
-                </div>
-
-                <LineIcon
-                  className={classNames(projectcss.all, sty.svg__eSZ)}
-                  role={"img"}
-                />
-              </p.Stack>
-
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__xSr4P
-                )}
-              >
-                {"Designed for every stage of your business growth."}
-              </div>
-            </p.Stack>
-
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text___58Cuj
-              )}
-            >
-              {
-                "Go from a one person creative professional to a global studio. Work from anywhere - on your terms - knowing you have a community to support you at every stage of your growth."
-              }
-            </div>
-          </p.Stack>
-
-          <p.Stack
-            as={"div"}
-            data-plasmic-name={"partnerPricingTableSection"}
-            data-plasmic-override={overrides.partnerPricingTableSection}
-            hasGap={true}
-            className={classNames(
-              projectcss.all,
-              sty.partnerPricingTableSection
-            )}
-          >
+            ) : null}
             {true ? (
-              <TablePricing
-                data-plasmic-name={"partnerProPricingTable"}
-                data-plasmic-override={overrides.partnerProPricingTable}
-                className={classNames(
-                  "__wab_instance",
-                  sty.partnerProPricingTable
-                )}
-                slot={
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__hb4Af
-                    )}
-                  >
-                    {
-                      "Choose if you are an independent creative professional or solopreneur getting ready to grow your creative technology studio."
-                    }
-                  </div>
-                }
-                slot12={"Service rate on income"}
-                slot14={
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__aeqQq
-                    )}
-                  >
-                    {"Everything in Maker - plus"}
-                  </div>
-                }
-                slot15={
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__vzHXs
-                    )}
-                  >
-                    {"Verified profile"}
-                  </div>
-                }
-                slot16={"Receive and respond to direct messages."}
-                slot17={"Priority access to events and workshops"}
-                slot18={"Email and community support"}
-                slot20={
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___3OnAg
-                    )}
-                  >
-                    {"Start selling"}
-                  </div>
-                }
-                slot3={
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__pj7Ye
-                    )}
-                  >
-                    {
-                      "Get all the tools you need to grow a global audience and build a valuable business."
-                    }
-                  </div>
-                }
-                slot4={"2"}
-                slot5={"5"}
-                slot6={"3"}
-                slot7={"2"}
-              >
-                {"Pro"}
-              </TablePricing>
+              <div className={classNames(projectcss.all, sty.freeBox__dAvRu)}>
+                <Navbar
+                  data-plasmic-name={"navbar"}
+                  data-plasmic-override={overrides.navbar}
+                  className={classNames("__wab_instance", sty.navbar)}
+                  dark={true}
+                />
+              </div>
             ) : null}
 
-            <TablePricing
-              data-plasmic-name={"partnerStartupPricingTable"}
-              data-plasmic-override={overrides.partnerStartupPricingTable}
-              className={classNames(
-                "__wab_instance",
-                sty.partnerStartupPricingTable
-              )}
-              slot={
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__soZsm
-                  )}
-                >
-                  {
-                    "Choose if you are scaling up your studio and want more tools to manage your business and collaborate with other teams."
-                  }
-                </div>
-              }
-              slot12={"Service rate on income"}
-              slot14={
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__jmO9N
-                  )}
-                >
-                  {"Everything in Pro - plus"}
-                </div>
-              }
-              slot15={
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text___1Jop3
-                  )}
-                >
-                  {"Advanced partner profile"}
-                </div>
-              }
-              slot16={"Advanced composite products & services"}
-              slot17={"Subscription & promotion management tools"}
-              slot18={"Chat support"}
-              slot2={
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__jBfaa
-                  )}
-                >
-                  {"75"}
-                </div>
-              }
-              slot20={
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text___6KZ0
-                  )}
-                >
-                  {"Start selling"}
-                </div>
-              }
-              slot3={
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__oaVu
-                  )}
-                >
-                  {
-                    "Form teams, collaborate, and access advanced scoping and service design tools."
-                  }
-                </div>
-              }
-              slot6={"2"}
-            >
-              {"Studio"}
-            </TablePricing>
-
-            <TablePricing
-              data-plasmic-name={"partnerAgencyPricingtable"}
-              data-plasmic-override={overrides.partnerAgencyPricingtable}
-              className={classNames(
-                "__wab_instance",
-                sty.partnerAgencyPricingtable
-              )}
-              slot={
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__eSuWu
-                  )}
-                >
-                  {
-                    "Choose if you are a global agency that wants advanced subscription, composite services, expense management, and collaboration tools."
-                  }
-                </div>
-              }
-              slot10={
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__dBtJw
-                  )}
-                >
-                  {"Free listings"}
-                </div>
-              }
-              slot11={
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__xNvSn
-                  )}
-                >
-                  {"$"}
-                </div>
-              }
-              slot12={"No service rate on income"}
-              slot13={"Payment processing fees"}
-              slot14={
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__qwBj
-                  )}
-                >
-                  {"Everything in Studio - plus"}
-                </div>
-              }
-              slot15={
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__uaTPf
-                  )}
-                >
-                  {"Featured partner profile"}
-                </div>
-              }
-              slot16={"Priority access to events & workshops."}
-              slot17={"Partner discount on popular Saas tools."}
-              slot18={"Dedicated and private partner community."}
-              slot2={
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__bdYey
-                  )}
-                >
-                  {"100"}
-                </div>
-              }
-              slot20={
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__iDzgz
-                  )}
-                >
-                  {"Start selling"}
-                </div>
-              }
-              slot3={
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__nyPzf
-                  )}
-                >
-                  {
-                    "Get a featured profile, priority access to community events, and partner discounts."
-                  }
-                </div>
-              }
-              slot4={"10"}
-              slot5={
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__fJzLf
-                  )}
-                >
-                  {"0"}
-                </div>
-              }
-              slot6={
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__wkgWa
-                  )}
-                >
-                  {"0"}
-                </div>
-              }
-              slot7={
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__hmuIu
-                  )}
-                >
-                  {"1"}
-                </div>
-              }
-              slot8={
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text___9X4By
-                  )}
-                >
-                  {"$"}
-                </div>
-              }
-              slot9={
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text___471ZH
-                  )}
-                >
-                  {"Free priority placement by default"}
-                </div>
-              }
-            >
-              {"Agency"}
-            </TablePricing>
-          </p.Stack>
-
-          <p.Stack
-            as={"div"}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__jppWz)}
-          >
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"overlineHeadline2"}
-              data-plasmic-override={overrides.overlineHeadline2}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.overlineHeadline2)}
-            >
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox__bRr8N)}
-              >
-                <LineIcon
-                  className={classNames(projectcss.all, sty.svg__j23Tq)}
-                  role={"img"}
-                />
-
-                <div className={classNames(projectcss.all, sty.freeBox__eGh7N)}>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__gzqj2
-                    )}
-                  >
-                    {"Benefits"}
-                  </div>
-                </div>
-
-                <LineIcon
-                  className={classNames(projectcss.all, sty.svg__lj7Uq)}
-                  role={"img"}
-                />
-              </p.Stack>
-
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__xyCfg
-                )}
-              >
-                {"All memberships include"}
-              </div>
-            </p.Stack>
-          </p.Stack>
-
-          <p.Stack
-            as={"div"}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__nM5Y)}
-          >
-            <CardFeatureDescription
-              className={classNames(
-                "__wab_instance",
-                sty.cardFeatureDescription__jzQpV
-              )}
-              headline={"Automated scoping & service design"}
-              iconParent={
-                <div className={classNames(projectcss.all, sty.freeBox__z1I9A)}>
-                  <p.PlasmicIcon
-                    PlasmicIconType={
-                      hasVariant(globalVariants, "screen", "iphone12ProMax")
-                        ? DesignIcon
-                        : DesignIcon
-                    }
-                    className={classNames(projectcss.all, sty.svg__biheL)}
-                    role={"img"}
-                  />
-                </div>
-              }
-              text={
-                "Scope and create unique services, in multiple compositions, blazingly fast, making it easier for clients to buy your services."
-              }
+            <SellerPricing
+              data-plasmic-name={"sellerPricing"}
+              data-plasmic-override={overrides.sellerPricing}
+              className={classNames("__wab_instance", sty.sellerPricing)}
             />
 
-            <CardFeatureDescription
-              className={classNames(
-                "__wab_instance",
-                sty.cardFeatureDescription__z3Wte
-              )}
-              headline={"Sell direct to a global audience"}
-              iconParent={
-                <div className={classNames(projectcss.all, sty.freeBox__suBeb)}>
-                  <p.PlasmicIcon
-                    PlasmicIconType={
-                      hasVariant(globalVariants, "screen", "iphone12ProMax")
-                        ? GlobeAmericaIcon
-                        : GlobeAmericaIcon
-                    }
-                    className={classNames(projectcss.all, sty.svg__vzVi6)}
-                    role={"img"}
-                  />
-                </div>
-              }
-              text={
-                "Reach a global client base and enjoy a steady flow of high-value, remote-first company clients all year round."
-              }
+            <Footer
+              data-plasmic-name={"footer"}
+              data-plasmic-override={overrides.footer}
+              className={classNames("__wab_instance", sty.footer)}
+              color={true}
             />
-
-            <CardFeatureDescription
-              className={classNames(
-                "__wab_instance",
-                sty.cardFeatureDescription__j0WfQ
-              )}
-              headline={"Fast International P2P payments"}
-              iconParent={
-                <div className={classNames(projectcss.all, sty.freeBox__q5Chp)}>
-                  <P2PPayPaymentIcon
-                    className={classNames(projectcss.all, sty.svg__iyhPz)}
-                    role={"img"}
-                  />
-                </div>
-              }
-              text={
-                "Get paid quickly and easily, even across international borders with automated invoice processing, payments, and escrow."
-              }
-            />
-
-            <CardFeatureDescription
-              className={classNames(
-                "__wab_instance",
-                sty.cardFeatureDescription__ts4YO
-              )}
-              headline={"Verified profiles, ratings & reviews"}
-              iconParent={
-                <div className={classNames(projectcss.all, sty.freeBox__aCib)}>
-                  <VerifiedIcon
-                    className={classNames(projectcss.all, sty.svg__sVbpm)}
-                    role={"img"}
-                  />
-                </div>
-              }
-              text={
-                "Become a trusted seller and drive future sales with verified reviews from top-tier enterprises."
-              }
-            />
-
-            <CardFeatureDescription
-              className={classNames(
-                "__wab_instance",
-                sty.cardFeatureDescription__kDm22
-              )}
-              headline={"Analytics & performance tracking"}
-              iconParent={
-                <div
-                  className={classNames(projectcss.all, sty.freeBox___4Ad4N)}
-                >
-                  <ChartIcon
-                    className={classNames(projectcss.all, sty.svg__oD4R)}
-                    role={"img"}
-                  />
-                </div>
-              }
-              text={
-                "Access powerful analytics and lead generation tools to better understand your followers, customers, and build a scalable and profitable business."
-              }
-            />
-
-            <CardFeatureDescription
-              className={classNames(
-                "__wab_instance",
-                sty.cardFeatureDescription__qMfwQ
-              )}
-              headline={"Community & collaboration"}
-              iconParent={
-                <div className={classNames(projectcss.all, sty.freeBox__kVtD)}>
-                  <TeamPartnersIcon
-                    className={classNames(projectcss.all, sty.svg__yyYG)}
-                    role={"img"}
-                  />
-                </div>
-              }
-              text={
-                "Learn from leading entrepreneurs, creatives, and cutting-edge technologists from around the world."
-              }
-            />
-          </p.Stack>
-
-          <p.Stack
-            as={"div"}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__mZzs5)}
-          >
-            <p.Stack
-              as={"div"}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.freeBox__a1PDa)}
-            >
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"overlineHeadline24"}
-                data-plasmic-override={overrides.overlineHeadline24}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.overlineHeadline24)}
-              >
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__moLw)}
-                >
-                  <LineIcon
-                    className={classNames(projectcss.all, sty.svg__meKzD)}
-                    role={"img"}
-                  />
-
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__yo8P)}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__goBcd
-                      )}
-                    >
-                      {"Community"}
-                    </div>
-                  </div>
-
-                  <LineIcon
-                    className={classNames(projectcss.all, sty.svg__aigQn)}
-                    role={"img"}
-                  />
-                </p.Stack>
-
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__g9LgJ
-                  )}
-                >
-                  {
-                    "Join a global marketplace community built for creative entrepreneurs"
-                  }
-                </div>
-              </p.Stack>
-            </p.Stack>
-
-            <ButtonPrimary
-              className={classNames("__wab_instance", sty.buttonPrimary__tA8Ol)}
-              color={"primary"}
-              width={"_360"}
-            >
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__evsG
-                )}
-              >
-                {"Start selling"}
-              </div>
-            </ButtonPrimary>
-          </p.Stack>
-        </p.Stack>
+          </div>
+        ) : null}
       </div>
     </React.Fragment>
   );
@@ -1405,7 +1575,16 @@ const PlasmicDescendants = {
     "partnerStartupPricingTable",
     "partnerAgencyPricingtable",
     "overlineHeadline2",
-    "overlineHeadline24"
+    "iconBg2",
+    "iconBg3",
+    "iconBg4",
+    "iconBg5",
+    "iconBg6",
+    "iconBg",
+    "overlineHeadline24",
+    "navbar",
+    "sellerPricing",
+    "footer"
   ],
 
   navbarPrimary: ["navbarPrimary"],
@@ -1455,7 +1634,16 @@ const PlasmicDescendants = {
   partnerStartupPricingTable: ["partnerStartupPricingTable"],
   partnerAgencyPricingtable: ["partnerAgencyPricingtable"],
   overlineHeadline2: ["overlineHeadline2"],
-  overlineHeadline24: ["overlineHeadline24"]
+  iconBg2: ["iconBg2"],
+  iconBg3: ["iconBg3"],
+  iconBg4: ["iconBg4"],
+  iconBg5: ["iconBg5"],
+  iconBg6: ["iconBg6"],
+  iconBg: ["iconBg"],
+  overlineHeadline24: ["overlineHeadline24"],
+  navbar: ["navbar"],
+  sellerPricing: ["sellerPricing"],
+  footer: ["footer"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -1512,7 +1700,16 @@ export const PlasmicPartnerpricing = Object.assign(
     partnerStartupPricingTable: makeNodeComponent("partnerStartupPricingTable"),
     partnerAgencyPricingtable: makeNodeComponent("partnerAgencyPricingtable"),
     overlineHeadline2: makeNodeComponent("overlineHeadline2"),
+    iconBg2: makeNodeComponent("iconBg2"),
+    iconBg3: makeNodeComponent("iconBg3"),
+    iconBg4: makeNodeComponent("iconBg4"),
+    iconBg5: makeNodeComponent("iconBg5"),
+    iconBg6: makeNodeComponent("iconBg6"),
+    iconBg: makeNodeComponent("iconBg"),
     overlineHeadline24: makeNodeComponent("overlineHeadline24"),
+    navbar: makeNodeComponent("navbar"),
+    sellerPricing: makeNodeComponent("sellerPricing"),
+    footer: makeNodeComponent("footer"),
     // Metadata about props expected for PlasmicPartnerpricing
     internalVariantProps: PlasmicPartnerpricing__VariantProps,
     internalArgProps: PlasmicPartnerpricing__ArgProps

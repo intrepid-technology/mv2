@@ -247,6 +247,15 @@
   --plasmic-token-grey-50: var(--token-0quEfLXpK);
   --token-afi8Yi3nu: #ffffff;
   --plasmic-token-blu-grey: var(--token-afi8Yi3nu);
+  --token-qSwo6WyeF: 80px;
+  --plasmic-token-section-horizontal-padding: var(--token-qSwo6WyeF);
+}
+
+@media (min-width: 0px) and (max-width: 428px) {
+  .plasmic_tokens {
+    --token-qSwo6WyeF: 8px;
+    --plasmic-token-section-horizontal-padding: var(--token-qSwo6WyeF);
+  }
 }
 
 .plasmic_default_styles,
@@ -340,6 +349,19 @@
   --mixin-vp2dB036v6_padding-left: 40px;
   --mixin-vp2dB036v6_position: relative;
   --mixin-vp2dB036v6_list-style-type: disc;
+}
+
+.plasmic_mixins,
+.plasmic_mixins:where(.global_layout_isSellerView) {
+  --mixin-C0HCuYDzC_box-shadow: 0px 8px 16px 8px var(--token-t2DPA2Clx);
+  --plasmic-mixin-shadow-1_box-shadow: var(--mixin-C0HCuYDzC_box-shadow);
+  --mixin-ZZynGnkrU_box-shadow: 0px 1px 2px 0px #1018280f,
+    0px 1px 3px 0px #1018281a;
+  --plasmic-mixin-table_box-shadow: var(--mixin-ZZynGnkrU_box-shadow);
+  --mixin-moA-_cK0B_box-shadow: 0px 0px 16px 4px #0000000d;
+  --plasmic-mixin-hover-shadow-primary_box-shadow: var(
+    --mixin-moA-_cK0B_box-shadow
+  );
 }
 
 :where(.all) {

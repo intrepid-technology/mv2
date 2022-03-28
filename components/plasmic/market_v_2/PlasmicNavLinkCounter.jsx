@@ -43,6 +43,7 @@ function PlasmicNavLinkCounter__RenderFunc(props) {
         projectcss.a,
         projectcss.root_reset,
         projectcss.plasmic_default_styles,
+        projectcss.plasmic_mixins,
         projectcss.plasmic_tokens,
         sty.root,
         { [sty.rootstate_selected]: hasVariant(variants, "state", "selected") }

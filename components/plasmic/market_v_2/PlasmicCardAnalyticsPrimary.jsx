@@ -56,6 +56,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
         projectcss.all,
         projectcss.root_reset,
         projectcss.plasmic_default_styles,
+        projectcss.plasmic_mixins,
         projectcss.plasmic_tokens,
         sty.parent,
         { [sty.parentsize__270]: hasVariant(variants, "size", "_270") }

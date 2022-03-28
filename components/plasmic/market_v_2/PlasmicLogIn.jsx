@@ -63,6 +63,7 @@ function PlasmicLogIn__RenderFunc(props) {
             projectcss.all,
             projectcss.root_reset,
             projectcss.plasmic_default_styles,
+            projectcss.plasmic_mixins,
             projectcss.plasmic_tokens,
             sty.root
           )}

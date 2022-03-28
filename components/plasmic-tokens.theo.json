@@ -121,6 +121,16 @@
       }
     },
     {
+      "name": "Section/Horizontal/Padding",
+      "type": "spacing",
+      "value": "80px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+        "id": "qSwo6WyeF"
+      }
+    },
+    {
       "name": "Smoke50",
       "type": "color",
       "value": "#F8F8FF",

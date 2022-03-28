@@ -35,6 +35,7 @@ function PlasmicTextCityname__RenderFunc(props) {
         projectcss.__wab_text,
         projectcss.root_reset,
         projectcss.plasmic_default_styles,
+        projectcss.plasmic_mixins,
         projectcss.plasmic_tokens,
         sty.root
       )}

@@ -3637,6 +3637,19 @@
           "cssFilePath": "plasmic/remote_v_1/PlasmicPricingCard.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "VH6Z-VtTrt",
+          "name": "SellerPricing",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/remote_v_1/PlasmicSellerPricing.jsx",
+          "importSpec": {
+            "modulePath": "SellerPricing.jsx"
+          },
+          "cssFilePath": "plasmic/remote_v_1/PlasmicSellerPricing.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -6087,9 +6100,10 @@
       }
     ]
   },
+  "wrapPagesWithGlobalContexts": true,
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.174",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.174/dist/plasmic.schema.json"
+  "cliVersion": "0.1.176",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.176/dist/plasmic.schema.json"
 }
