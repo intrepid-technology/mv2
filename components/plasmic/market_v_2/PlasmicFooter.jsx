@@ -305,7 +305,7 @@ function PlasmicFooter__RenderFunc(props) {
                 }
                 destination={
                   hasVariant(globalVariants, "screen", "desktop")
-                    ? "https://linkedin.com/company/intrepidremote"
+                    ? "https://www.linkedin.com/company/tryintrepid"
                     : "https://www.linkedin.com/company/tryintrepid"
                 }
               >
@@ -407,6 +407,11 @@ function PlasmicFooter__RenderFunc(props) {
                     ? "dark"
                     : undefined
                 }
+                destination={
+                  hasVariant(globalVariants, "screen", "iphone12ProMax")
+                    ? "https://www.facebook.com/tryintrepid"
+                    : undefined
+                }
               />
 
               <FooterSocialLink
@@ -498,36 +503,43 @@ function PlasmicFooter__RenderFunc(props) {
               </FooterSocialLink>
             </p.Stack>
           ) : null}
+          {(
+            hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true
+          ) ? (
+            <p.Stack
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.freeBox__yuBxq)}
+            >
+              <FooterLink
+                className={classNames("__wab_instance", sty.footerLink__l4NKp, {
+                  [sty.footerLinkcolor__l4NKp4Sg3R]: hasVariant(
+                    variants,
+                    "color",
+                    "color"
+                  )
+                })}
+                color={
+                  hasVariant(variants, "color", "color") ? "light" : "dark"
+                }
+                slot={"Privacy"}
+              />
 
-          <p.Stack
-            as={"div"}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__yuBxq)}
-          >
-            <FooterLink
-              className={classNames("__wab_instance", sty.footerLink__l4NKp, {
-                [sty.footerLinkcolor__l4NKp4Sg3R]: hasVariant(
-                  variants,
-                  "color",
-                  "color"
-                )
-              })}
-              color={hasVariant(variants, "color", "color") ? "light" : "dark"}
-              slot={"Privacy"}
-            />
-
-            <FooterLink
-              className={classNames("__wab_instance", sty.footerLink__sR4S, {
-                [sty.footerLinkcolor__sR4S4Sg3R]: hasVariant(
-                  variants,
-                  "color",
-                  "color"
-                )
-              })}
-              color={hasVariant(variants, "color", "color") ? "light" : "dark"}
-              slot={"Terms"}
-            />
-          </p.Stack>
+              <FooterLink
+                className={classNames("__wab_instance", sty.footerLink__sR4S, {
+                  [sty.footerLinkcolor__sR4S4Sg3R]: hasVariant(
+                    variants,
+                    "color",
+                    "color"
+                  )
+                })}
+                color={
+                  hasVariant(variants, "color", "color") ? "light" : "dark"
+                }
+                slot={"Terms"}
+              />
+            </p.Stack>
+          ) : null}
 
           <div
             className={classNames(
