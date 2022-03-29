@@ -55,14 +55,14 @@ function PlasmicHome__RenderFunc(props) {
         <meta name="twitter:card" content="summary" />
         <title key="title">
           {
-            "Find, hire, and pay remote employees, creators, and freelancers — all on one platform"
+            "Find, hire, and pay creators, freelancers, and remote employees — anywhere, on demand"
           }
         </title>
         <meta
           key="og:title"
           property="og:title"
           content={
-            "Find, hire, and pay remote employees, creators, and freelancers — all on one platform"
+            "Find, hire, and pay creators, freelancers, and remote employees — anywhere, on demand"
           }
         />
 
@@ -71,7 +71,7 @@ function PlasmicHome__RenderFunc(props) {
           property="og:description"
           name="description"
           content={
-            "Remote OS is a global payments and human resources platform for companies to find, hire, and pay remote employees, creators, and freelancers in any country."
+            "Remote OS is a global payments and human resources platform for startups to find, hire, and pay creators, freelancers, and remote employees in any country"
           }
         />
 
