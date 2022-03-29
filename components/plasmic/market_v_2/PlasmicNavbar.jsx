@@ -126,6 +126,9 @@ function PlasmicNavbar__RenderFunc(props) {
             destination={
               hasVariant(variants, "partner", "partner")
                 ? "/"
+                : hasVariant(variants, "dark", "dark") &&
+                  hasVariant(globalVariants, "screen", "desktop")
+                ? "partner/pricing"
                 : hasVariant(globalVariants, "screen", "desktop")
                 ? "https://intrepidventures.typeform.com/to/qoNxle4D"
                 : "/partner/pricing"
@@ -174,6 +177,9 @@ function PlasmicNavbar__RenderFunc(props) {
             destination={
               hasVariant(variants, "partner", "partner")
                 ? "/partner/pricing"
+                : hasVariant(variants, "dark", "dark") &&
+                  hasVariant(globalVariants, "screen", "desktop")
+                ? "/member/pricing"
                 : hasVariant(globalVariants, "screen", "desktop")
                 ? "https://intrepidventures.typeform.com/to/MthpVWrA"
                 : "/member/pricing"
