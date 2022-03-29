@@ -58,6 +58,33 @@ function PlasmicPartnerpricing__RenderFunc(props) {
     <React.Fragment>
       <Head>
         <meta name="twitter:card" content="summary" />
+        <title key="title">
+          {"Find clients, brand deals & sponsorships —get paid on your terms"}
+        </title>
+        <meta
+          key="og:title"
+          property="og:title"
+          content={
+            "Find clients, brand deals & sponsorships —get paid on your terms"
+          }
+        />
+
+        <meta
+          key="description"
+          property="og:description"
+          name="description"
+          content={
+            "Creators and freelancers can now invoice and give up to 60 day payment terms to your clients — while you get paid upfront."
+          }
+        />
+
+        <meta
+          key="og:image"
+          property="og:image"
+          content={
+            "https://site-assets.plasmic.app/3973e27ff6f420d7ae94f3ae9b35aa27.png"
+          }
+        />
       </Head>
 
       <style>{`
