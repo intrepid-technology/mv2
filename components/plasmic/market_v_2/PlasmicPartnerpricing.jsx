@@ -1530,6 +1530,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                   data-plasmic-override={overrides.navbar}
                   className={classNames("__wab_instance", sty.navbar)}
                   dark={true}
+                  partner={true}
                 />
               </div>
             ) : null}

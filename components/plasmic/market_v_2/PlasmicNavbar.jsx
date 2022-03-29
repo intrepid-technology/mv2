@@ -26,11 +26,7 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import sty from "./PlasmicNavbar.module.css"; // plasmic-import: pP9c6XTFzc/css
 
-export const PlasmicNavbar__VariantProps = new Array(
-  "auth",
-  "dark",
-  "freelancer"
-);
+export const PlasmicNavbar__VariantProps = new Array("auth", "dark", "partner");
 
 export const PlasmicNavbar__ArgProps = new Array();
 
@@ -58,7 +54,7 @@ function PlasmicNavbar__RenderFunc(props) {
         {
           [sty.rootauth]: hasVariant(variants, "auth", "auth"),
           [sty.rootdark]: hasVariant(variants, "dark", "dark"),
-          [sty.rootfreelancer]: hasVariant(variants, "freelancer", "freelancer")
+          [sty.rootpartner]: hasVariant(variants, "partner", "partner")
         }
       )}
     >
@@ -120,20 +116,21 @@ function PlasmicNavbar__RenderFunc(props) {
                 "dark"
               ),
 
-              [sty.hireOnIntrepidButtonfreelancer]: hasVariant(
+              [sty.hireOnIntrepidButtonpartner]: hasVariant(
                 variants,
-                "freelancer",
-                "freelancer"
+                "partner",
+                "partner"
               )
             })}
             color={hasVariant(variants, "dark", "dark") ? "light" : undefined}
             destination={
-              hasVariant(variants, "freelancer", "freelancer")
-                ? ""
+              hasVariant(variants, "partner", "partner")
+                ? "/"
                 : hasVariant(globalVariants, "screen", "desktop")
                 ? "https://intrepidventures.typeform.com/to/qoNxle4D"
-                : "https://intrepidventures.typeform.com/to/qoNxle4D"
+                : "/partner/pricing"
             }
+            preventDefault={""}
             type={"link"}
           >
             <div
@@ -148,15 +145,15 @@ function PlasmicNavbar__RenderFunc(props) {
                     "dark"
                   ),
 
-                  [sty.textfreelancer__uRxVzwC9Kl]: hasVariant(
+                  [sty.textpartner__uRxVzwC9Kl]: hasVariant(
                     variants,
-                    "freelancer",
-                    "freelancer"
+                    "partner",
+                    "partner"
                   )
                 }
               )}
             >
-              {hasVariant(variants, "freelancer", "freelancer")
+              {hasVariant(variants, "partner", "partner")
                 ? "Hire on Intrepid"
                 : "Sell on Intrepid"}
             </div>
@@ -166,11 +163,18 @@ function PlasmicNavbar__RenderFunc(props) {
             data-plasmic-name={"pricingNavButton"}
             data-plasmic-override={overrides.pricingNavButton}
             className={classNames("__wab_instance", sty.pricingNavButton, {
-              [sty.pricingNavButtondark]: hasVariant(variants, "dark", "dark")
+              [sty.pricingNavButtondark]: hasVariant(variants, "dark", "dark"),
+              [sty.pricingNavButtonpartner]: hasVariant(
+                variants,
+                "partner",
+                "partner"
+              )
             })}
             color={hasVariant(variants, "dark", "dark") ? "light" : undefined}
             destination={
-              hasVariant(globalVariants, "screen", "desktop")
+              hasVariant(variants, "partner", "partner")
+                ? "/partner/pricing"
+                : hasVariant(globalVariants, "screen", "desktop")
                 ? "https://intrepidventures.typeform.com/to/MthpVWrA"
                 : "/member/pricing"
             }
@@ -199,14 +203,14 @@ function PlasmicNavbar__RenderFunc(props) {
             data-plasmic-override={overrides.buttonPrimary}
             className={classNames("__wab_instance", sty.buttonPrimary, {
               [sty.buttonPrimarydark]: hasVariant(variants, "dark", "dark"),
-              [sty.buttonPrimaryfreelancer]: hasVariant(
+              [sty.buttonPrimarypartner]: hasVariant(
                 variants,
-                "freelancer",
-                "freelancer"
+                "partner",
+                "partner"
               )
             })}
             destination={
-              hasVariant(variants, "freelancer", "freelancer")
+              hasVariant(variants, "partner", "partner")
                 ? "https://intrepidventures.typeform.com/to/qoNxle4D"
                 : "https://intrepidventures.typeform.com/to/MthpVWrA"
             }
