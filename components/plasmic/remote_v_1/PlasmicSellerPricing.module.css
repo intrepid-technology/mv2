@@ -280,6 +280,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
+  background: var(--token-530QP0ccB);
   min-width: 0;
   padding: 80px var(--token-qSwo6WyeF);
 }
@@ -2108,6 +2109,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
+  background: var(--token-530QP0ccB);
   min-width: 0;
   padding: 80px var(--token-qSwo6WyeF);
 }
@@ -2639,7 +2641,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  background: var(--token-0quEfLXpK);
+  background: var(--token-530QP0ccB);
   min-width: 0;
   padding: 80px var(--token-qSwo6WyeF);
 }
