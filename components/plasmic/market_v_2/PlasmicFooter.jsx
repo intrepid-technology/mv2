@@ -151,8 +151,8 @@ function PlasmicFooter__RenderFunc(props) {
                 )
               })}
               color={hasVariant(variants, "color", "color") ? "light" : "dark"}
-              destination={"https://intrepidventures.typeform.com/to/MthpVWrA"}
-              slot={"Pricing"}
+              destination={"/member/pricing"}
+              slot={"Member pricing"}
             />
 
             <FooterLink
@@ -164,7 +164,7 @@ function PlasmicFooter__RenderFunc(props) {
                 )
               })}
               color={hasVariant(variants, "color", "color") ? "light" : "dark"}
-              destination={"https://intrepidventures.typeform.com/to/qoNxle4D"}
+              destination={"/partner/pricing"}
               slot={"Sell on Intrepid"}
             />
           </p.Stack>
@@ -203,7 +203,7 @@ function PlasmicFooter__RenderFunc(props) {
               destination={
                 hasVariant(variants, "color", "color")
                   ? "https://blog.tryintrepid.com"
-                  : undefined
+                  : "https://blog.tryintrepid.com"
               }
               slot={"Blog"}
             />
@@ -217,6 +217,7 @@ function PlasmicFooter__RenderFunc(props) {
                 )
               })}
               color={hasVariant(variants, "color", "color") ? "light" : "dark"}
+              destination={"https://hq.tryintrepid.com"}
               slot={"Community"}
             />
 
