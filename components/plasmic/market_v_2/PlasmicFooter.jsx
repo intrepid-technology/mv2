@@ -164,7 +164,7 @@ function PlasmicFooter__RenderFunc(props) {
                 )
               })}
               color={hasVariant(variants, "color", "color") ? "light" : "dark"}
-              destination={"/partner/pricing"}
+              destination={"/partner/sell"}
               slot={"Sell on Intrepid"}
             />
           </p.Stack>
