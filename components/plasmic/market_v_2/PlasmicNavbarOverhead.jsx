@@ -112,7 +112,7 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
               ? "light"
               : "primary"
           }
-          destination={"/partner/pricing"}
+          destination={"/partner/sell"}
           linkText={"Partners"}
         />
 

@@ -130,8 +130,8 @@ function PlasmicNavbar__RenderFunc(props) {
                   hasVariant(globalVariants, "screen", "desktop")
                 ? "partner/pricing"
                 : hasVariant(globalVariants, "screen", "desktop")
-                ? "https://intrepidventures.typeform.com/to/qoNxle4D"
-                : "/partner/pricing"
+                ? "/partner/sell"
+                : "/partner/sell"
             }
             preventDefault={""}
             type={"link"}
@@ -176,7 +176,7 @@ function PlasmicNavbar__RenderFunc(props) {
             color={hasVariant(variants, "dark", "dark") ? "light" : undefined}
             destination={
               hasVariant(variants, "partner", "partner")
-                ? "/partner/pricing"
+                ? "/partner/sell"
                 : hasVariant(variants, "dark", "dark") &&
                   hasVariant(globalVariants, "screen", "desktop")
                 ? "/member/pricing"

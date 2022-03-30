@@ -136,10 +136,10 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
               }
               destination={
                 hasVariant(globalVariants, "screen", "iphone12ProMax")
-                  ? "/partner/pricing"
+                  ? "/partner/sell"
                   : hasVariant(globalVariants, "screen", "desktop")
-                  ? "/partner/pricing"
-                  : "/partner/pricing"
+                  ? "/partner/sell"
+                  : "/partner/sell"
               }
               height={
                 hasVariant(globalVariants, "screen", "desktop") ? "_36" : "_36"

@@ -2113,19 +2113,6 @@
           "componentType": "page"
         },
         {
-          "id": "xIU_FMgFYC",
-          "name": "Partnerpricing",
-          "type": "managed",
-          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
-          "renderModuleFilePath": "plasmic/market_v_2/PlasmicPartnerpricing.jsx",
-          "importSpec": {
-            "modulePath": "../pages/partner/pricing.jsx"
-          },
-          "cssFilePath": "plasmic/market_v_2/PlasmicPartnerpricing.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "Bsm9hmgzlseA",
           "name": "Memberpricing",
           "type": "managed",
@@ -3650,6 +3637,19 @@
           "cssFilePath": "plasmic/remote_v_1/PlasmicSellerPricing.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "xIU_FMgFYC",
+          "name": "Partnersell",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/remote_v_1/PlasmicPartnersell.jsx",
+          "importSpec": {
+            "modulePath": "../pages/partner/sell.jsx"
+          },
+          "cssFilePath": "plasmic/remote_v_1/PlasmicPartnersell.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
